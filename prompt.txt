@@ -1,0 +1,1 @@
+Parse the below references as JSON and tag the content appropriately, find the DOI and add it to the output JSON, add the input to the output json with key as input. Also tag the content deeply like first_page, last_page, type of reference, collab.

@@ -1,0 +1,2157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <sequence>
+    <author>Hajahmadi, M.A., Gharehpetian, G.B., Firouzi, M., Anvari-Moghaddam, A.</author>
+    <date>(2022).</date>
+    <title>Output power smoothing of wind power plants using unified inter-phase power controller equipped with super-capacitor.</title>
+    <journal>Journal of Energy Storage,</journal>
+    <volume>54,</volume>
+    <pages>105-209.</pages>
+  </sequence>
+  <sequence>
+    <author>Gevorgian, V., Zhang, Y., Ela, E.</author>
+    <date>(2015).</date>
+    <title>Investigating the impacts of wind generation participation in interconnection frequency response.</title>
+    <journal>IEEE Transactions on Sustainable Energy,</journal>
+    <volume>6(3),</volume>
+    <pages>1004?1012</pages>
+  </sequence>
+  <sequence>
+    <author>Eto, J. H.</author>
+    <date>(2010).</date>
+    <title>Use of frequency response metrics to assess the planning and operating requirements for reliable integration of variable renewable generation.</title>
+    <location>USA:</location>
+    <publisher>Lawrence Berkeley National Laboratory</publisher>
+  </sequence>
+  <sequence>
+    <author>S. Gao, A. Lim and D. Bevly,</author>
+    <title>�An empirical study of DSRC V2V performance in truck platooning scenarios,�</title>
+    <journal>Digital Communications and Networks,</journal>
+    <volume>vol. 2, no. 4,</volume>
+    <pages>pp. 233�244,</pages>
+    <date>2016.</date>
+  </sequence>
+  <sequence>
+    <author>S. Bayless, A. Guan, A. Shaw, M. Johnson, G. Pruitt et al.,</author>
+    <title>Recommended Practices for DSRC Licensing and Spectrum Management: A Guide for Management, Regulation, Deployment, and Administration for a Connected Vehicle Environment,</title>
+    <location>Washington, DC, USA:</location>
+    <publisher>Intelligent Transportation Society of America,</publisher>
+    <date>2015.</date>
+    <note>[Online]. Available:</note>
+    <url>https://rosap.ntl.bts.gov/view/dot/3577</url>
+  </sequence>
+  <sequence>
+    <author>F. E. F. Samann and S. Askar,</author>
+    <title>�Estimating the optimal cluster number for vehicular network using Scott�s formula,�</title>
+    <container-title>in 2022 4th International Conference on Advanced Science and Engineering (ICOASE),</container-title>
+    <publisher>IEEE,</publisher>
+    <location>Zakho, Iraq,</location>
+    <pages>pp. 136-141,</pages>
+    <date>2022</date>
+  </sequence>
+  <sequence>
+    <author>R. Chai, Xianlei Ge and Q. Chen,</author>
+    <title>�Adaptive K-Harmonic means clustering algorithm for VANETs,� in</title>
+    <date>2014</date>
+    <container-title>14th International Symposium on Communications and Information Technologies (ISCIT), IEEE, Incheon, Korea,</container-title>
+    <pages>pp. 233�237,</pages>
+    <date>2014</date>
+  </sequence>
+  <sequence>
+    <author>C. Shi, Y. Zhou, W. Li, H. Li, N. Lu et al.,</author>
+    <title>�A Centralized clustering based hybrid vehicular networking architecture for safety data delivery,� in GLOBECOM 2017 -</title>
+    <container-title>2017 IEEE Global Communications Conference,</container-title>
+    <location>IEEE, Singapore,</location>
+    <pages>pp. 1�6,</pages>
+    <date>2017</date>
+  </sequence>
+  <sequence>
+    <author>A. Cardote, S. Sargento and P. Steenkiste,</author>
+    <title>�On the connection availability between relay nodes in a VANET,� in 2010 IEEE Globecom Workshops,</title>
+    <publisher>IEEE,</publisher>
+    <location>Miami, Florida, USA,</location>
+    <pages>pp. 181�185,</pages>
+    <date>2010</date>
+  </sequence>
+  <sequence>
+    <author>P. Hubballi, A. V. Sutagundar and R. Belagali,</author>
+    <title>�Agent based dynamic clustering for hybrid VANET</title>
+    <url>(ADCHV),�</url>
+    <container-title>in 2016 IEEE International Conference on Recent Trends in Electronics, Information &amp; Communication Technology (RTEICT),</container-title>
+    <publisher>IEEE,</publisher>
+    <location>Bengaluru, India,</location>
+    <pages>pp. 382�386,</pages>
+    <date>May 2016.</date>
+  </sequence>
+  <sequence>
+    <author>X.-Q. N. T.-D. N. V. H. E.-N. Pham,</author>
+    <title>""Joint Node Selection and Resource Allocation for Task Offloading in Scalable Vehicle-Assisted Multi-Access Edge Computing,""</title>
+    <journal>Symmetry ,</journal>
+    <volume>vol. 11, no. 1,</volume>
+    <pages>pp. 1-17,</pages>
+    <date>2019.</date>
+  </sequence>
+  <sequence>
+    <author>L. Y. S. Aminizadeh,</author>
+    <title>""Cost minimization scheduling for deadline constrained applications on vehicular cloud infrastructure,""</title>
+    <container-title>in International Conference on Computer and Knowledge Engineering (ICCKE),</container-title>
+    <location>Mashhad, Iran,</location>
+    <date>2014,</date>
+    <pages>pp. 358-363.</pages>
+  </sequence>
+  <sequence>
+    <author>Stetler, C. B.</author>
+    <date>(2001)</date>
+    <title>Updating the Stetler Model of research utilization to facilitate evidence-based practice.</title>
+    <journal>Nursing Outlook,</journal>
+    <volume>49(6),</volume>
+    <pages>272�279.</pages>
+    <doi>doi:10.1067/mno.2001.120517</doi>
+  </sequence>
+  <sequence>
+    <author>Schmidt, N. A., &amp; Brown, J. M.</author>
+    <date>(2009).</date>
+    <title>Evidence-based practice for nurses: Appraisal and application of research.</title>
+    <location>Jones &amp; Bartlett.</location>
+  </sequence>
+  <sequence>
+    <author>Polit, D. G., &amp; Beck, C. T.</author>
+    <date>(2021).</date>
+    <title>Nursing research: Generating and assessing evidence for nursing practice</title>
+    <edition>(11th ed.).</edition>
+    <publisher>Wolters Kluwer</publisher>
+  </sequence>
+  <sequence>
+    <author>Stevens, K. R.</author>
+    <date>(2012).</date>
+    <title>ACE Star model of EBP: Knowledge transformation. Academic Center for Evidence-Based Practice.</title>
+    <publisher>The University of Texas Health Science Center.</publisher>
+    <note>Retrieved from</note>
+    <url>http://nursing.uthscsa.edu/onrs/starmodel/star-model.asp</url>
+  </sequence>
+  <sequence>
+    <author>Tumma, A., Berzou, S., Jaques, K., Shah, D., Smith, A. C., &amp; Thomas, E. E.</author>
+    <date>(2022).</date>
+    <title>Considerations for the Implementation of a Telestroke Network: A Systematic Review.</title>
+    <journal>Journal of Stroke and Cerebrovascular Diseases: The Official Journal of National Stroke Association,</journal>
+    <volume>31(1), 106171.</volume>
+    <pages>S1052-3057(21)00576-0</pages>
+  </sequence>
+  <sequence>
+    <author>Field, M. J., &amp; Lohr, K.</author>
+    <date>(1990).</date>
+    <title>Clinical practice guidelines: Directions for a new program. Committee to Advise Public Health Service on clinical practice guidelines.</title>
+    <location>Washington, DC:</location>
+    <publisher>Institute of Medicine.</publisher>
+    <doi>doi:10.1007/978/-1-4419-1005-9_1113</doi>
+  </sequence>
+  <sequence>
+    <author>Felitti, V. J., Anda, R. F., Nordenberg, D., Williamson, D. F., Spitz, A. M., Edwards, V., . . . &amp; Marks, J. S.</author>
+    <date>(1998).</date>
+    <title>Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: The Adverse Childhood Experiences (ACE) Study.</title>
+    <journal>American Journal of Preventive Medicine,</journal>
+    <volume>14(4),</volume>
+    <pages>245�258.</pages>
+  </sequence>
+  <sequence>
+    <author>Harris, S. M., &amp; Topham, G.</author>
+    <date>(2004).</date>
+    <title>Assessment and treatment of trauma from a Bowen family systems theory perspective.</title>
+    <editor>In D. R. Catherall (Ed.),</editor>
+    <container-title>Handbook of stress, trauma, and the family.</container-title>
+    <location>New York, NY:</location>
+    <publisher>Bruner-Routledge</publisher>
+  </sequence>
+  <sequence>
+    <author>Kilpatrick, D. G., Resnick, H. S., &amp; Friedman, M. J.</author>
+    <date>(2013).</date>
+    <title>Severity of posttraumatic stress symptoms�child age 11�17 (National Stressful Events Survey PTSD Short Scale [NSESSS])</title>
+    <genre>[Measurement instrument].</genre>
+    <note>Retrieved from</note>
+    <url>http://www.psychiatry.org/practice/dsm/dsm5/online-assessment-measures</url>
+  </sequence>
+  <sequence>
+    <author>Kulka, R. A., Schlenger, W. E., Fairbank, J. A., Hough, R. L., Jordan, B. K., Marmar, C. R., &amp; Weiss, D. S.</author>
+    <date>(1990).</date>
+    <title>Trauma and the Vietnam War generation: Report of findings from the National Vietnam Veterans Readjustment Study.</title>
+    <location>New York, NY:</location>
+    <publisher>Brunnel/Mazel</publisher>
+  </sequence>
+  <sequence>
+    <author>Nader, K. O.</author>
+    <date>(2004).</date>
+    <title>Assessing traumatic experiences in children and adolescents: Self-reports of DSM PTSD Criteria B�D symptoms.</title>
+    <editor>In J. Wilson &amp; T. Keane (Eds.),</editor>
+    <container-title>Assessing psychological trauma and PTSD</container-title>
+    <edition>(2nd ed.,</edition>
+    <pages>pp. 513�537).</pages>
+    <location>New York, NY:</location>
+    <publisher>Guilford Press</publisher>
+  </sequence>
+  <sequence>
+    <author>Whiteman, H.</author>
+    <date>(2013, August 8).</date>
+    <title>US child obesity rates are dropping, says CDC.</title>
+    <journal>Medical News Today.</journal>
+    <url>http://www.medicalnewstoday.com/articles/264548</url>
+  </sequence>
+  <sequence>
+    <author>Robert Wood Johnson Foundation.</author>
+    <date>(2021, October 13).</date>
+    <title>The state of childhood obesity - helping all children grow up healthy.</title>
+    <container-title>The State of Childhood Obesity.</container-title>
+    <url>https://stateofchildhoodobesity.org/</url>
+  </sequence>
+  <sequence>
+    <author>Robert Wood Johnson Foundation.</author>
+    <date>(2016, November 30).</date>
+    <title>Declining childhood obesity rates.</title>
+    <genre>RWJF.</genre>
+    <url>https://www.rwjf.org/en/library/research/2015/02/declining-childhood-obesity-rates.html</url>
+  </sequence>
+  <sequence>
+    <author>Photovoice Hamilton.</author>
+    <date>(2007).</date>
+    <title>Manual and resource kit:</title>
+    <container-title>Photovoice 2007. NACCHO.</container-title>
+    <url>https://www.naccho.org/uploads/downloadable-resources/Programs/Public-Health-Infrastructure/Photovoice-Manual.pdf</url>
+  </sequence>
+  <sequence>
+    <author>Whiteman, H.</author>
+    <date>(2013, August 8).</date>
+    <title>US child obesity rates are dropping, says CDC.</title>
+    <journal>Medical News Today.</journal>
+    <url>http://www.medicalnewstoday.com/articles/264548</url>
+  </sequence>
+  <sequence>
+    <author>H�gberg U, Fellman V, Thiblin I, Karlsson R, Wester K.</author>
+    <date>2020.</date>
+    <title>Difficult birth is the main contributor to birth-related fracture and accidents to other neonatal fractures.</title>
+    <journal>Acta Paediatr.</journal>
+    <volume>109(10):2040-2048.</volume>
+    <doi>doi: 10.1111/apa.15217</doi>
+  </sequence>
+  <sequence>
+    <author>Walker, VP</author>
+    <date>(2018)</date>
+    <title>Newborn Evaluation.</title>
+    <container-title>In Avery�s Diseases of the Newborn.</container-title>
+    <editor>10th Ed. Gleason CA &amp; Juul SE Eds.</editor>
+    <publisher>Elsevier,</publisher>
+    <pages>289-311</pages>
+  </sequence>
+  <sequence>
+    <author>Abidi NY, &amp; Martin KL,</author>
+    <date>2020</date>
+    <title>Cutaneous defects.</title>
+    <container-title>Nelson Textbook of Pediatrics 21</container-title>
+    <editor>Ed. Kliegman RM, St Geme JW, Blum NJ, Shah SS, Tasker RC &amp; Wilson KM eds</editor>
+    <pages>3456-3459</pages>
+  </sequence>
+  <sequence>
+    <author>Tappero E.</author>
+    <date>2021.</date>
+    <title>Physical Assessment.</title>
+    <container-title>In Core Curriculum for Neonatal Intensive Care Nursing 6th</container-title>
+    <editor>Ed, Verklan, MT, Walden M &amp; Forest, S eds.</editor>
+    <publisher>Elsevier,</publisher>
+    <pages>99-130</pages>
+  </sequence>
+  <sequence>
+    <author>Anbalagan S, Mendez MD.</author>
+    <title>Neonatal Abstinence Syndrome.</title>
+    <journal>[Updated</journal>
+    <date>2022 May 1].</date>
+    <note>In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022 Jan-. Available from:</note>
+    <url>https://www.ncbi.nlm.nih.gov/books/NBK551498/</url>
+  </sequence>
+  <sequence>
+    <author>Silverman WA, and Andersen DH.</author>
+    <date>1956.</date>
+    <title>A controlled clinical trial of water mist on obstructive respiratory signs, death rate, and necropsy findings among premature infants.</title>
+    <journal>Pediatrics</journal>
+    <volume>17(1):</volume>
+    <pages>1�10.</pages>
+  </sequence>
+  <sequence>
+    <author>Ball, JW, Dains JE, Flynn JA, Solomon BS, Stewart RW.</author>
+    <date>(2023).</date>
+    <title>Chest and Lungs.</title>
+    <container-title>In Seidel�s Guide to Physical Examination,</container-title>
+    <edition>10th Ed.</edition>
+    <publisher>Elsevier,</publisher>
+    <pages>290-325</pages>
+  </sequence>
+  <sequence>
+    <title>Society for Human Resources Management (SHRM)</title>
+    <date>(2022).</date>
+    <title>Practicing Strategic Human Resources Management.</title>
+    <note>Retrieved from:</note>
+    <url>https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/practicingstrategichumanresources.aspx</url>
+  </sequence>
+  <sequence>
+    <author>Vassos, S., Harms, L., &amp; Rose, D.</author>
+    <date>(2018).</date>
+    <title>Supervision and social work students: relationships in a team-based rotation placement model.</title>
+    <journal>Social Work Education,</journal>
+    <volume>37(3),</volume>
+    <pages>328�341.</pages>
+    <url>https://doi.org/10.1080/02615479.2017.1406466</url>
+  </sequence>
+  <sequence>
+    <author>*Stoltenberg, C.D. &amp; McNeill, B.W.</author>
+    <date>(2010).</date>
+    <title>IDM supervision: An integrative developmental model for supervising counselors and therapists</title>
+    <edition>(3rd ed.).</edition>
+    <note>Routledge.</note>
+    <url>https://doi.org/10.4324/9780203893388</url>
+  </sequence>
+  <sequence>
+    <author>Kadushin, A., &amp; Harkness, D.</author>
+    <date>(2014).</date>
+    <title>Supervision in social work.</title>
+    <location>New York, NY:</location>
+    <publisher>Columbia University Press</publisher>
+  </sequence>
+  <sequence>
+    <author>Brown, B.</author>
+    <date>(2017).</date>
+    <title>Braving the wilderness: The quest for true belonging and the courage to stand alone.</title>
+    <location>New York, NY:</location>
+    <publisher>Random House</publisher>
+  </sequence>
+  <sequence>
+    <author>Stoltenberg, C.D. &amp; McNeill, B.W.</author>
+    <date>(2010).</date>
+    <title>IDM supervision: An integrative developmental model for supervising counselors and therapists</title>
+    <edition>(3rd ed.).</edition>
+    <note>Routledge.</note>
+    <url>https://doi.org/10.4324/9780203893388</url>
+  </sequence>
+  <sequence>
+    <author>Zuchowski, I.</author>
+    <date>(2016).</date>
+    <title>Getting to know the context: The complexities of providing off-site supervision in social work practice learning.</title>
+    <journal>British Journal of Social Work,</journal>
+    <volume>46(2),</volume>
+    <pages>409�426.</pages>
+    <doi>doi:10.1093/bjsw/bcu133</doi>
+  </sequence>
+  <sequence>
+    <author>Orley, J.</author>
+    <date>(1994).</date>
+    <title>Psychological disorders among refugees: Some clinical and epidemiological Considerations.</title>
+    <editor>In A. J. Marsella, T. Boremann, S. Ekblad, &amp; J. Orley (Eds.),</editor>
+    <container-title>Amidst peril and pain: The mental health and wellbeing of the world�s refugees</container-title>
+    <pages>(pp. 193�206).</pages>
+    <location>Washington, DC:</location>
+    <publisher>American Psychological Association.</publisher>
+  </sequence>
+  <sequence>
+    <author>Pederson, P. B.</author>
+    <date>(2000).</date>
+    <title>Handbook for developing multicultural awareness</title>
+    <edition>(3rd ed.).</edition>
+    <location>Alexandria, VA:</location>
+    <publisher>American Counseling Association.</publisher>
+  </sequence>
+  <sequence>
+    <author>Sachs, L.</author>
+    <date>(1987).</date>
+    <title>Medicinsk antropologica [Medical anthropology].</title>
+    <location>Stockholm, Sweden:</location>
+    <publisher>Liber Press</publisher>
+  </sequence>
+  <sequence>
+    <author>Yonkers, K. A., &amp; Clark, D. E.</author>
+    <date>(2011).</date>
+    <title>Gender and gender related issues in DSM-5.</title>
+    <editor>In D. A. Regier, W. E. Narrow, E. A. Kuhl, &amp; D. J. Kupfer (Eds.),</editor>
+    <container-title>The conceptual evolution of DSM-5</container-title>
+    <pages>(pp. 278�304).</pages>
+    <location>Washington, DC:</location>
+    <publisher>APA Publishing</publisher>
+  </sequence>
+  <sequence>
+    <author>Rosenfeld, L. E., Cohen, J. F., Gorski, M. T., Lessing, A. J., Smith, L., Rimm, E. B., &amp; Hoffman, J. A.</author>
+    <date>(2016).</date>
+    <title>How do we actually put smarter snacks in schools? NOURISH (nutrition opportunities to understand reforms involving student health) conversations with food-service directors.</title>
+    <journal>Public Health Nutrition,</journal>
+    <volume>20(3),</volume>
+    <pages>556�564.</pages>
+    <url>https://doi.org/10.1017/s1368980016002044</url>
+  </sequence>
+  <sequence>
+    <author>Taber, D. R., Chriqui, J. F., Perna, F. M., Powell, L. M., &amp; Chaloupka, F. J.</author>
+    <date>(2012).</date>
+    <title>Weight status among adolescents in states that govern competitive food nutrition content.</title>
+    <journal>PEDIATRICS,</journal>
+    <volume>130(3),</volume>
+    <pages>X8.</pages>
+    <url>https://doi.org/10.1542/peds.2011-3353</url>
+  </sequence>
+  <sequence>
+    <author>Rosenfeld, L. E., Cohen, J. F., Gorski, M. T., Lessing, A. J., Smith, L., Rimm, E. B., &amp; Hoffman, J. A.</author>
+    <date>(2016).</date>
+    <title>How do we actually put smarter snacks in schools? NOURISH (nutrition opportunities to understand reforms involving student health) conversations with food-service directors.</title>
+    <journal>Public Health Nutrition,</journal>
+    <volume>20(3),</volume>
+    <pages>556�564.</pages>
+    <url>https://doi.org/10.1017/s1368980016002044</url>
+  </sequence>
+  <sequence>
+    <author>Greenburg, M.S.</author>
+    <date>(2020).</date>
+    <title>Handbook of neurosurgery.</title>
+    <edition>9th ed.</edition>
+    <publisher>Thieme Medical Publishers, Inc.</publisher>
+  </sequence>
+  <sequence>
+    <author>Hinduja, A., &amp; Ahmed, M. S.</author>
+    <date>(2019).</date>
+    <title>Emergency Neurological Life Support: Acute Ischemic Stroke.</title>
+    <journal>Neurocritical Care Society.</journal>
+    <pages>Pages 1-51.</pages>
+  </sequence>
+  <sequence>
+    <author>Greenberg, J. O.</author>
+    <date>(1999)</date>
+    <edition>Neuroimaging 2nd ed.</edition>
+    <publisher>McGraw-Hill</publisher>
+  </sequence>
+  <sequence>
+    <author>Darsie, M. D., &amp; Moheet, A. M.</author>
+    <date>(2017).</date>
+    <title>The Pocket Guide to Neurocritical Care: A concise reference for the evaluation and management of neurologic emergencies.</title>
+    <location>Chicago, IL:</location>
+    <publisher>Neurocritical Care Society</publisher>
+  </sequence>
+  <sequence>
+    <author>Polit, D. G., &amp; Beck, C. T.</author>
+    <date>(2021).</date>
+    <title>Nursing research: Generating and assessing evidence for nursing practice</title>
+    <edition>(11th ed.).</edition>
+    <publisher>Wolters Kluwer.</publisher>
+  </sequence>
+  <sequence>
+    <author>Fontana, R. J.</author>
+    <date>(2008).</date>
+    <title>Acute liver failure including acetaminophen overdose.</title>
+    <journal>The Medical Clinics of North America,</journal>
+    <volume>92(4),</volume>
+    <pages>761�794.</pages>
+    <doi>doi:10.1016/j.mcna.2008.03.005</doi>
+  </sequence>
+  <sequence>
+    <author>Dang, D., Dearholt, S., Bissett, K., Ascenzi, J., &amp; Whalen, M.</author>
+    <date>(2022).</date>
+    <title>Johns Hopkins evidence-based practice for nurses and healthcare professionals: Model and guidelines.</title>
+    <edition>4th ed.</edition>
+    <publisher>Sigma Theta Tau International</publisher>
+  </sequence>
+  <sequence>
+    <author>W.W.Chin,</author>
+    <title>""The partial least squares approach to structural equation modeling,""</title>
+    <journal>Advances in Hospitality and Lsure,</journal>
+    <volume>vol.8, no.2,</volume>
+    <pages>pp. 295-336,</pages>
+    <date>1998.</date>
+  </sequence>
+  <sequence>
+    <author>S. Zhao, M. Hu, Z. Cai, Z. Zhang, T. Zhou et al.</author>
+    <title>""Enhancing Chinese character representation with lattice-aligned attention"",</title>
+    <journal>IEEE Transactions on Neural Networks and Learning Systems,</journal>
+    <date>2021,</date>
+    <doi>DOI: 10.1109/TNNLS.2021.3114378.</doi>
+  </sequence>
+  <sequence>
+    <author>M. Abdel-Basset, R. Mohamed, M. Elhoseny, M. Abouhawash, Y. Nam et al.,</author>
+    <title>""Efficient mcdm model for evaluating the performance of commercial banks: a case study,""</title>
+    <journal>Computers, Materials &amp; Continua,</journal>
+    <volume>vol. 67, no.3,</volume>
+    <pages>pp. 2729�2746,</pages>
+    <date>2021.</date>
+  </sequence>
+  <sequence>
+    <author>J. H. Zhou, J. Y. Xing and Y. J. Yu,</author>
+    <title>""Study on multiple certification of quality and safety of agricultural products production,""</title>
+    <journal>Journal of Zhejiang University (Humanities and Social Sciences),</journal>
+    <volume>vol. 2,</volume>
+    <pages>pp.55-67,</pages>
+    <date>2015</date>
+  </sequence>
+  <sequence>
+    <author>S. Zhao, M. Hu, Z. Cai and F. Liu.</author>
+    <title>""Dynamic modeling cross-modal interactions in two-phase prediction for entity-relation extraction"",</title>
+    <journal>IEEE Transactions on Neural Networks and Learning Systems,</journal>
+    <date>2021,</date>
+    <doi>DOI: 10.1109/TNNLS.2021.3104971</doi>
+  </sequence>
+  <sequence>
+    <author>G. Z. Zhang and X. Wang,</author>
+    <title>""Research on the relationship between e-customer value and repurchase intention,""</title>
+    <journal>Intelligent Computation Technology and Automation,</journal>
+    <volume>vol.4,</volume>
+    <pages>pp.419-421,</pages>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <author>H. S. Bansal and S.F. Taylor,</author>
+    <title>Beyond Service Quality and Customer Satisfaction: Investigating additional Antecedents of Service Provider Switching Intentions.</title>
+    <location>Chestnut Hill, USA:</location>
+    <publisher>Developments</publisher>
+    <container-title>in Marketing Science: Proceedings of the Academy of Marketing Science,2015.</container-title>
+    <note>[Online]. Available:</note>
+    <url>https://doi.org/10.1007/978-3-319-13078-1_30</url>
+  </sequence>
+  <sequence>
+    <author>S. Zhao, M. Hu, Z. Cai, Z. Zhang, T. Zhou et al.</author>
+    <title>""Enhancing Chinese character representation with lattice-aligned attention"",</title>
+    <journal>IEEE Transactions on Neural Networks and Learning Systems,</journal>
+    <date>2021,</date>
+    <doi>DOI: 10.1109/TNNLS.2021.3114378.</doi>
+  </sequence>
+  <sequence>
+    <author>Herrin, J.</author>
+    <date>(2009).</date>
+    <title>Byzantium: The Surprising Life of a Medieval</title>
+    <location>Empire:</location>
+    <publisher>Princeton University Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Keenan, J. P., &amp; Keenan, L. K.</author>
+    <date>(2022).</date>
+    <title>Earthing the Cosmic Christ of Ephesians--The Universe, Trinity, and Zhiyi's Threefold Truth,</title>
+    <volume>Volume 2:</volume>
+    <journal>Commentary on Ephesians</journal>
+    <volume>1:3-23:</volume>
+    <publisher>Wipf and Stock Publishers</publisher>
+  </sequence>
+  <sequence>
+    <author>May, C. A., &amp; Narfstr�m, K.</author>
+    <date>(2012).</date>
+    <title>Retinal capillary morphology in the Abyssinian cat with hereditary retinal degeneration.</title>
+    <journal>Experimental Eye Research,</journal>
+    <volume>99,</volume>
+    <pages>45-47.</pages>
+    <doi>doi:https://doi.org/10.1016/j.exer.2012.03.022</doi>
+  </sequence>
+  <sequence>
+    <author>Pettifer, J., &amp; Nazarko, M.</author>
+    <date>(2007).</date>
+    <title>Strengthening Religious Tolerance for a Secure Civil Society in Albania and the</title>
+    <location>Southern Balkans:</location>
+    <publisher>IOS Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Psilopoulos, D.</author>
+    <date>(2017).</date>
+    <title>The Prophets and the Goddess: W.</title>
+    <editor>B. Yeats, Aleister Crowley, Ezra Pound,</editor>
+    <container-title>Robert Graves and the Chthonic Esoteric Tradition:</container-title>
+    <publisher>Cambridge Scholars Publishing</publisher>
+  </sequence>
+  <sequence>
+    <author>Sogno, C., Storin, B. K., &amp; Watts, E. J.</author>
+    <date>(2019).</date>
+    <title>Late Antique Letter Collections: A Critical Introduction and Reference Guide:</title>
+    <publisher>University of California Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Wilson, J., &amp; Stoltz, C.</author>
+    <date>(2020).</date>
+    <title>Keeping Watch for Kingfishers:</title>
+    <location>God Stories:</location>
+    <publisher>Sacristy Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Furujo M, Kosuga M, Okuyama T.</author>
+    <title>Enzyme replacement therapy attenuates disease progression in two Japanese siblings with mucopolysaccharidosis type VI: 10-year follow up.</title>
+    <journal>Molecular Genetics and Metabolism Reports.</journal>
+    <date>2017 Dec 1;</date>
+    <volume>13:69-75.</volume>
+    <url>https://doi.org/10.1016/j.ymgmr.2017.08.007</url>
+  </sequence>
+  <sequence>
+    <author>Coutinho MF, Santos JI, Matos L, Alves S.</author>
+    <title>Genetic substrate reduction therapy: a promising approach for lysosomal storage disorders.</title>
+    <journal>Diseases.</journal>
+    <date>2016 Dec;</date>
+    <volume>4(4):33.</volume>
+    <url>https://doi.org/10.3390/diseases4040033</url>
+  </sequence>
+  <sequence>
+    <author>Mehta A, Beck M, Linhart A, Sunder-Plassmann G, Widmer U.</author>
+    <title>History of lysosomal storage diseases: an overview.</title>
+    <note>Fabry disease: perspectives from 5 years of FOS. 2006.</note>
+    <url>https://www.ncbi.nlm.nih.gov/books/NBK11615/</url>
+  </sequence>
+  <sequence>
+    <author>Parenti G, Andria G, Ballabio A.</author>
+    <title>Lysosomal storage diseases: from pathophysiology to therapy.</title>
+    <journal>Annual review of medicine.</journal>
+    <date>2015 Jan 14;</date>
+    <volume>66:471-86.</volume>
+    <url>https://doi.org/10.1146/annurev-med-122313-085916</url>
+  </sequence>
+  <sequence>
+    <author>Pearl PL, DiBacco ML, Gibson KM.</author>
+    <title>Inborn errors of metabolism and the nervous system. Bradley and Daroff's Neurology in Clinical Practice.</title>
+    <edition>8th ed.</edition>
+    <location>Philadelphia, PA:</location>
+    <publisher>Elsevier.</publisher>
+    <date>2022.</date>
+    <isbn>ISBN 9780323287838,</isbn>
+    <pages>9780323339162.</pages>
+  </sequence>
+  <sequence>
+    <author>Wong YC, Ysselstein D, Krainc D.</author>
+    <title>Mitochondria�lysosome contacts regulate mitochondrial fission via RAB7 GTP hydrolysis.</title>
+    <journal>Nature.</journal>
+    <date>2018</date>
+    <journal>Feb;</journal>
+    <volume>554(7692):382-6.</volume>
+    <url>https://doi.org/10.1038/nature25486</url>
+  </sequence>
+  <sequence>
+    <author>de Oliveira Costa Souza Rosa C, da Silva Christo E, Costa KA, Santos L dos.</author>
+    <title>Assessing complementarity and optimising the combination of intermittent renewable energy sources using ground measurements.</title>
+    <journal>J Clean Prod.</journal>
+    <volume>2020;258:120946.</volume>
+    <doi>doi:10.1016/j.jclepro.2020.120946</doi>
+  </sequence>
+  <sequence>
+    <author>Negash T, M�llerstr�m E, Ottermo F.</author>
+    <title>An assessment of wind energy potential for the three topographic regions of Eritrea.</title>
+    <journal>Energies.</journal>
+    <volume>2020;13(7).</volume>
+    <doi>doi:10.3390/en13071846</doi>
+  </sequence>
+  <sequence>
+    <author>Solomon AA, Kammen DM, Callaway D.</author>
+    <title>Investigating the impact of wind-solar complementarities on energy storage requirement and the corresponding supply reliability criteria.</title>
+    <journal>Applied Energy.</journal>
+    <doi>doi:10.1016/j.apenergy.2016.01.070</doi>
+  </sequence>
+  <sequence>
+    <author>J. C. Jankowska, H., A. Swiatkowski,</author>
+    <title>�Active Carbon, Horwood.</title>
+    <location>London.""</location>
+    <date>1991.</date>
+  </sequence>
+  <sequence>
+    <author>Subroto,</author>
+    <title>""Characteristics of Burning Briquettes Mixed with Wood Charcoal and Straw,""</title>
+    <genre>Jur. Tech. Fac. Tech. Univ.</genre>
+    <publisher>Muhammadiyah Surakarta,</publisher>
+    <date>2007.</date>
+  </sequence>
+  <sequence>
+    <author>Sudrajat, R. and S. Soleh,</author>
+    <title>""Technical Instructions for Making Activated Charcoal."" Forestry Research and Development Agency.</title>
+    <location>Bogor,</location>
+    <date>1994.</date>
+  </sequence>
+  <sequence>
+    <author>S. and D. H. Joseph,</author>
+    <title>�Residues of Briquetting in Developing Countries,� Applied Science.</title>
+    <location>London,</location>
+    <date>1981.</date>
+  </sequence>
+  <sequence>
+    <author>Peter Sahupala and Daniel Parenden,</author>
+    <title>""Bus Bark as an Alternative Fuel"".</title>
+    <journal>Mustek Anim Scientific Journal Ha,</journal>
+    <date>2015.</date>
+  </sequence>
+  <sequence>
+    <author>Shahid, A., Nguyen, T., &amp; Kechadi, T</author>
+    <date>(2021).</date>
+    <title>Big data warehouse for healthcare-sensitive data applications.</title>
+    <journal>Sensors,</journal>
+    <volume>21(7),</volume>
+    <pages>2353.</pages>
+    <url>https://doi.org/10.3390/s21072353</url>
+  </sequence>
+  <sequence>
+    <author>Trinidad, G., Platt, J., &amp; Kardia, S.</author>
+    <date>(2020).</date>
+    <title>The public�s comfort with sharing health data with third-party commercial companies.</title>
+    <journal>Humanities and Social Sciences Communications,</journal>
+    <volume>7,</volume>
+    <pages>149.</pages>
+    <url>https://doi.org/10.1057/s41599-020-00641-5</url>
+  </sequence>
+  <sequence>
+    <author>Zhao, X.</author>
+    <date>(2021).</date>
+    <title>Challenges and barriers in intercultural communication between patients with immigration backgrounds and health professionals: a systematic literature review.</title>
+    <journal>Health Communication,</journal>
+    <volume>38(4),</volume>
+    <pages>824-833.</pages>
+    <url>https://doi.org/10.1080/10410236.2021.1980188</url>
+  </sequence>
+  <sequence>
+    <author>Medina Aguerrebere, P., Pacanowski, T., &amp; Medina, E.</author>
+    <date>(2020).</date>
+    <title>Stakeholders� participation in hospitals� branding initiatives on social media: a proposal model for building collective brands.</title>
+    <journal>Revista Espa�ola de Comunicaci�n en Salud,</journal>
+    <volume>11 (1).</volume>
+    <url>https://doi.org/10.20318/recs.2020.5097</url>
+  </sequence>
+  <sequence>
+    <author>Lockett, A., Moon, J., &amp; Visser, W.</author>
+    <date>(2006).</date>
+    <title>Corporate Social Responsibility in Management Research: Focus, Nature, Salience and Sources of Influence*.</title>
+    <journal>Journal of Management Studies,</journal>
+    <volume>43(1),</volume>
+    <pages>115�136.</pages>
+    <url>https://doi.org/10.1111/j.1467-6486.2006.00585.x</url>
+  </sequence>
+  <sequence>
+    <author>Nisaputra, R.</author>
+    <date>2019.</date>
+    <title>Telkom, Jamkrindo dan Pupuk Kaltim Gelar Kegiatan BHUN di Kaltara.</title>
+    <container-title>[Telkom, Jamkrindo and Pupuk Kaltim Hold BHUN Activities in Kaltara]. infobanknews.com. Tersedia di</container-title>
+    <url>https://infobanknews.com/telkom-jamkrindo-dan-pupuk-kaltim-gelar-kegiatan-bhun-di-kaltara/</url>
+    <note>[Accessed 1 September 2023].</note>
+  </sequence>
+  <sequence>
+    <author>Rusdianto, U.</author>
+    <date>(2010).</date>
+    <title>Public Relations dan Corporate Social Responsibility (CSR) : (Studi Deskriptif Kualitatif Strategi Komunikasi Public Relations PT. Newmont Nusa Tenggara dalam menjalankan CSR Bidang Kesehatan Untuk Meningkatkan Kesehatan Masyarakat Di Desa Maluk Tahun 2009 [Universitas Sebelas Maret]</title>
+    <container-title>[Public Relations and Corporate Social Responsibility (CSR): (Qualitative Descriptive Study of the Communication Strategy of Public Relations of PT Newmont Nusa Tenggara in carrying out CSR in the Health Sector to Improve Community Health in Maluk Village in 2009].</container-title>
+    <url>https://digilib.uns.ac.id/dokumen/detail/13743/Public-relations-dan-Corporate-Social-Responsibility-CSR</url>
+  </sequence>
+  <sequence>
+    <author>Telkom.</author>
+    <date>(2020b).</date>
+    <title>PaDi UMKM Perkuat Peran Pelaku Bisnis Lokal dalam Percepatan Ekonomi Nasional.</title>
+    <container-title>[PaDi UMKM Strengthens the Role of Local Business Actors in Accelerating the National Economy]. Telkom Indonesia.</container-title>
+    <note>Retrieved from</note>
+    <url>https://telkom.co.id/sites/wholesale/id_ID/news/padi-umkm-perkuat-peran-pelaku-bisnis-lokal-dalam-percepatan-ekonomi-nasional-1171</url>
+    <note>[Accessed 1 September 2023].</note>
+  </sequence>
+  <sequence>
+    <author>Wahyuni, M. T., Pascarani, N. N. D., &amp; Suryawati, I. G. A. A.</author>
+    <date>(2017).</date>
+    <title>Evaluasi Tahapan Public Relations Program Corporate Communication Pt. Xl Axiata (Studi Kasus Pelaksanaan Csr Xl Future Leaders Tahun 2012-2016 )</title>
+    <container-title>[Evaluation of Public Relations Stages of Corporate Communication Program Pt. Xl Axiata (Case Study of the Implementation of CSR Xl Future Leaders Year 2012-2016)]. Jurnal Medium,</container-title>
+    <volume>1(1),</volume>
+    <pages>1�12.</pages>
+    <url>https://ojs.unud.ac.id/index.php/komunikasi/article/view/33390</url>
+  </sequence>
+  <sequence>
+    <author>Cumont, F.</author>
+    <date>(2018).</date>
+    <title>The mysteries of Mithra: The definitive account of a crucial historical moment when a colorful oriental religion swept over the Roman Empire.</title>
+    <location>London:</location>
+    <publisher>Routledge.</publisher>
+    <url>https://doi.org/10.4324/9780429464164.</url>
+  </sequence>
+  <sequence>
+    <author>Boyce, M.</author>
+    <date>(1975).</date>
+    <title>A history of Zoroastrianism: The early period</title>
+    <volume>(Vol. 1).</volume>
+    <location>Leiden, the Netherlands:</location>
+    <publisher>Brill.</publisher>
+    <url>https://brill.com/display/title/1973</url>
+  </sequence>
+  <sequence>
+    <author>Boyce, M.</author>
+    <date>(1975).</date>
+    <title>A history of Zoroastrianism: The early period</title>
+    <volume>(Vol. 1).</volume>
+    <location>Leiden, the Netherlands:</location>
+    <publisher>Brill.</publisher>
+    <url>https://brill.com/display/title/1973</url>
+  </sequence>
+  <sequence>
+    <author>Boyce, M.</author>
+    <date>(1975).</date>
+    <title>A history of Zoroastrianism: The early period</title>
+    <volume>(Vol. 1).</volume>
+    <location>Leiden, the Netherlands:</location>
+    <publisher>Brill.</publisher>
+    <url>https://brill.com/display/title/1973</url>
+  </sequence>
+  <sequence>
+    <author>Boyce, M.</author>
+    <date>(1975).</date>
+    <title>A history of Zoroastrianism: The early period</title>
+    <volume>(Vol. 1).</volume>
+    <location>Leiden, the Netherlands:</location>
+    <publisher>Brill.</publisher>
+    <url>https://brill.com/display/title/1973</url>
+  </sequence>
+  <sequence>
+    <author>Zar, A., Ahmadi, F., Karimi, F., Ahmadi, M., Ramsbottom, R.</author>
+    <date>(2022)</date>
+    <title>�Effect of Resistance Training and Spirulina platensis on Expression of IL-6, Gp130 Cytokines, JAK-STAT Signaling in Male Rats Skeletal Muscle�,</title>
+    <journal>Molecular &amp; Cellular Biomechanics,</journal>
+    <volume>19(1),</volume>
+    <pages>pp. 51�59.</pages>
+    <note>Available at:</note>
+    <url>https://doi.org/10.32604/mcb.2022.018345</url>
+  </sequence>
+  <sequence>
+    <author>Zhu, W.</author>
+    <date>(2022)</date>
+    <title>�Influence of Nutritional Supplementation and Sports Training on the Physical Fitness of Track and Field Athletes�,</title>
+    <journal>Molecular &amp; Cellular Biomechanics,</journal>
+    <volume>19(2),</volume>
+    <pages>pp. 89�96.</pages>
+    <note>Available at:</note>
+    <url>https://doi.org/10.32604/mcb.2022.018522.</url>
+  </sequence>
+  <sequence>
+    <author>Qin, J. and An, L.</author>
+    <date>(2022)</date>
+    <title>�Measurement of Myopia and Normal Human Choroidal Thickness Using Spectral Domain Optical Coherence Tomography�,</title>
+    <journal>Molecular &amp; Cellular Biomechanics,</journal>
+    <volume>19(3),</volume>
+    <pages>pp. 151�157.</pages>
+    <note>Available at:</note>
+    <url>https://doi.org/10.32604/mcb.2022.018578.</url>
+  </sequence>
+  <sequence>
+    <author>Allena, R. and Aubry, D.</author>
+    <date>(2022)</date>
+    <title>�Nuclear Stress-Strain State over Micropillars: A Mechanical In silico Study�,</title>
+    <journal>Molecular &amp; Cellular Biomechanics,</journal>
+    <volume>19(1),</volume>
+    <pages>pp. 1�16.</pages>
+    <note>Available at:</note>
+    <url>https://doi.org/10.32604/mcb.2022.018958.</url>
+  </sequence>
+  <sequence>
+    <author>A. S. van Aardt, A. P. Burger, M. Frick, C. Thomassen and P. de Wet,</author>
+    <title>""Hamilton cycles in sparse locally connected graphs,""</title>
+    <journal>Discrete Applied Mathematics,</journal>
+    <volume>vol. 257,</volume>
+    <pages>pp. 276-288,</pages>
+    <date>2019.</date>
+  </sequence>
+  <sequence>
+    <author>A. Mahasinghe, R. Hua, M. J. Dinneen and R. Goyal,</author>
+    <title>""Solving the Hamiltonian Cycle Problem using a Quantum Computer,""</title>
+    <container-title>in Proceedings of the Australasian Computer Science Week Multiconference,</container-title>
+    <pages>pp. 1-9,</pages>
+    <date>2019.</date>
+    <url>https://doi.org/10.1145/3290688.3290703</url>
+  </sequence>
+  <sequence>
+    <author>V. C. Raj and M. S. Shivakumar,</author>
+    <title>""Applying Quantum Algorithm to Speed Up the Solution of Hamiltonian Cycle Problems,""</title>
+    <container-title>in IFIP TC12 International Conference on Intelligent Information Processing,</container-title>
+    <publisher>Springer:</publisher>
+    <location>Boston,</location>
+    <volume>vol. 228,</volume>
+    <pages>pp. 53-61,</pages>
+    <date>2006.</date>
+  </sequence>
+  <sequence>
+    <author>T. Kalinowski and S. Mohammadian,</author>
+    <title>""Feasible bases for a polytope related to the Hamilton cycle problem,""</title>
+    <note>arXiv preprint arXiv:1907.12691,</note>
+    <date>2019.</date>
+  </sequence>
+  <sequence>
+    <author>J. Gruska,</author>
+    <title>�Algorithms�, in Quantum Computing, University of Michigan,</title>
+    <location>USA:</location>
+    <publisher>McGraw-Hill,</publisher>
+    <pages>pp. 101-148,</pages>
+    <date>1999.</date>
+  </sequence>
+  <sequence>
+    <author>X.-Q. N. T.-D. N. V. H. E.-N. Pham,</author>
+    <title>""Joint Node Selection and Resource Allocation for Task Offloading in Scalable Vehicle-Assisted Multi-Access Edge Computing,""</title>
+    <journal>Symmetry ,</journal>
+    <volume>vol. 11, no. 1,</volume>
+    <pages>pp. 1-17,</pages>
+    <date>2019.</date>
+  </sequence>
+  <sequence>
+    <author>K. Zhang, Y. Mao, S. Leng, S. Maharjan and Y. Zhang,</author>
+    <title>""Optimal delay constrained offloading for vehicular edge computing networks,""</title>
+    <container-title>in IEEE International Conference on Communications (ICC),</container-title>
+    <location>Paris, France,</location>
+    <date>2017,</date>
+    <pages>pp. 1-6.</pages>
+  </sequence>
+  <sequence>
+    <author>Z. Qing, S. Zhang, Z. Huang, X. Wang, Y. Wang et al,</author>
+    <title>�Mar: Masked autoencoders for efficient action recognition,�</title>
+    <journal>IEEE Transactions on Multimedia,</journal>
+    <date>2023.</date>
+  </sequence>
+  <sequence>
+    <author>R. Wang, D. Chen, Z. Wu, Y. Chen, X. Dai et al,</author>
+    <title>�Bevt: Bert pretraining of video transformers,�</title>
+    <container-title>in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,</container-title>
+    <location>New Orleans, LA, USA,</location>
+    <pages>pp. 14733�14743,</pages>
+    <date>2022.</date>
+  </sequence>
+  <sequence>
+    <author>K. Li, Y. Wang, P. Gao, G. Song, Y. Liu et al,</author>
+    <title>�Uniformer: Unified transformer for efficient spatiotemporal representation learning,�</title>
+    <note>arXiv preprint arXiv:2201.04676,</note>
+    <date>2022.</date>
+  </sequence>
+  <sequence>
+    <author>M. Ding, B. Xiao, N. Codella, P. Luo, J. Wang et al,</author>
+    <title>�Davit: Dual attention vision transformers,� in Computer Vision�ECCV 2022:</title>
+    <container-title>17th European Conference, Tel Aviv,</container-title>
+    <location>Israel,</location>
+    <date>October 23�27, 2022,</date>
+    <volume>Proceedings, Part XXIV,</volume>
+    <pages>pp. 74�92,</pages>
+    <publisher>Springer,</publisher>
+    <date>2022</date>
+  </sequence>
+  <sequence>
+    <author>Fix, O. K., Blumberg, E. A., Chang, K. M., Chu, J., Chung, R. T. et al.</author>
+    <date>(2021).</date>
+    <title>AASLD Expert Panel Consensus Statement: Vaccines to Prevent COVID-19 Infection in Patients with Liver Disease.</title>
+    <note>Hepatology (Baltimore, Md.), 10.1002/hep.31751. Advance online publication</note>
+  </sequence>
+  <sequence>
+    <author>Feldstein, L. R., Tenforde, M. W., Friedman, K. G., Newhams, M., Rose, E. B. et al.</author>
+    <date>(2021).</date>
+    <container-title>Characteristics and Outcomes of US Children and Adolescents With Multisystem Inflammatory Syndrome in Children (MIS-C) Compared With Severe Acute COVID-19. JAMA,</container-title>
+    <volume>325(11),</volume>
+    <pages>1074�1087.</pages>
+  </sequence>
+  <sequence>
+    <author>Li, Y., Sun, Y., Liu, J., Liu, C., Zhang, F.</author>
+    <date>(2023).</date>
+    <title>A data driven robust optimization model for scheduling near-zero carbon emission power plant considering the wind power output uncertainties and electricity-carbon market.</title>
+    <journal>Energy,</journal>
+    <volume>279,</volume>
+    <pages>128053.</pages>
+  </sequence>
+  <sequence>
+    <author>F. Pei,</author>
+    <title>""Research on the Long-term Mechanism of School�Enterprise Cooperation of Vocational Education in China, ""</title>
+    <journal>International Journal of Education and Management,</journal>
+    <volume>vol. 6, no. 1,</volume>
+    <pages>pp. 35-40,</pages>
+    <date>2021.</date>
+  </sequence>
+  <sequence>
+    <author>Q. Huang,</author>
+    <title>""New Trends of Curriculum Reform in International Vocational Education Based on the Comparison and Analysis of Germany, EU and Australia,""</title>
+    <journal>International Journal of Education and Management,</journal>
+    <volume>vol. 6, no. 3,</volume>
+    <pages>pp. 201-208,</pages>
+    <date>2021.</date>
+  </sequence>
+  <sequence>
+    <author>SHEVCHUK I V, JENKINS S C, WEIGAND B, Wolfersdorf J, Neumann O, et al.</author>
+    <title>Validation and analysis of Numerical results for a varying aspect ratio two-pass internal cooling channel.</title>
+    <journal>Journal of heat transfer,</journal>
+    <date>2011,</date>
+    <volume>133(5),</volume>
+    <pages>1085-1094.</pages>
+  </sequence>
+  <sequence>
+    <author>LIN G, KUSTERER K, BOHN D, Sugimoto T, Tanaka R, et al..</author>
+    <title>Heat transfer and pressure loss characteristics of double swirl chambers cooling with different inlet and outlet configurations;</title>
+    <container-title>proceedings of the Proceedings of the International Conference on Power Engineering-13,</container-title>
+    <date>2013</date>
+  </sequence>
+  <sequence>
+    <author>HAN J-C, DUTTA S, EKKAD S.</author>
+    <title>Gas Turbine Heat Transfer and Cooling Technology.</title>
+    <publisher>Taylor &amp; Francis,</publisher>
+    <location>Boca Raton, FL</location>
+    <pages>33487-2742,</pages>
+    <date>2012.</date>
+  </sequence>
+  <sequence>
+    <author>Rich J. T., Neely J. G., Paniello R. C., Voelker C. C., Nussenbaum B., et al.</author>
+    <date>(2010).</date>
+    <title>A practical guide to understanding Kaplan-Meier curves.</title>
+    <journal>Otolaryngology and Head and Neck Surgery,</journal>
+    <volume>143(3),</volume>
+    <pages>331-336.</pages>
+    <url>https://doi.org/10.1016/j.otohns.2010.05.007.</url>
+  </sequence>
+  <sequence>
+    <author>Zelditch, M. L., Swiderski, D. L., Sheets, H. D., Fink, W. L.</author>
+    <date>(2004).</date>
+    <title>Geometric morphometrics for biologists: a primer.</title>
+    <location>Amsterdam:</location>
+    <publisher>Elsevier/Academic Press.</publisher>
+  </sequence>
+  <sequence>
+    <author>Bookstein, F. L.</author>
+    <date>(1989).</date>
+    <title>Principal warps: thin-plate splines and the decomposition of deformations.</title>
+    <journal>Transactions on Pattern Analysis and Machine Intelligence,</journal>
+    <volume>11(6),</volume>
+    <pages>567-585.</pages>
+    <note>Available at:</note>
+    <url>https://doi.org/10.1109/34.24792.</url>
+  </sequence>
+  <sequence>
+    <author>Kendall, D. G.</author>
+    <date>(1981).</date>
+    <title>The statistics of shape. Interpreting multivariate data.</title>
+    <editor>in: V. Barnett (Ed.),</editor>
+    <container-title>Interpreting multivariate data,</container-title>
+    <pages>pp. 75-80.</pages>
+    <location>USA:</location>
+    <publisher>Wiley</publisher>
+  </sequence>
+  <sequence>
+    <author>Jeanjean, M., McGrath, K., Valenzuela-Lamas, S., Nieto-Espinet, A., Schafberg, R., Par�s-Casanova, P. M., Jim�nez-Manch�n, S., Guintard, C., Tekkouk, F., Ridouh, R., Mureau, C., Evin, A.</author>
+    <date>(2023).</date>
+    <title>ZooMS confirms geometric morphometrics species identification of ancient sheep and goat.</title>
+    <publisher>Royal Society Open Science.</publisher>
+    <note>Available at:</note>
+    <url>https://doi.org/10.1098/rsos.230672</url>
+  </sequence>
+  <sequence>
+    <author>Reyment, R. A.</author>
+    <date>(1996).</date>
+    <title>An Idiosyncratic History of Early Morphometrics.</title>
+    <journal>Advances in Morphometrics,</journal>
+    <pages>pp. 15-22,</pages>
+    <location>Boston MA:</location>
+    <publisher>Springer US</publisher>
+    <note>(NATO ASI Series). Available at:</note>
+    <url>https://doi.org/10.1007/978-1-4757-9083-2_2.</url>
+  </sequence>
+  <sequence>
+    <author>Gupta, A., Rai, S., Bano, A., Khanam, A., Sharma, S., et al.</author>
+    <date>(2021).</date>
+    <title>Comparative evaluation of different salt tolerant plant growth promoting bacterial isolates in mitigating the induced adverse effect of salinity in pisum sativum.</title>
+    <journal>Bioint. Res. Appl. Chem.</journal>
+    <volume>11 (5),</volume>
+    <pages>13141�13154.</pages>
+    <doi>DOI: 10.33263/BRIAC115.1314113154</doi>
+  </sequence>
+  <sequence>
+    <author>Bharti, N., Pandey, S.S., Barnawal, D., Patel, V.K., Kalra, A.</author>
+    <date>(2016).</date>
+    <title>Plant growth promoting rhizobacteria Dietzia natronolimnaea modulates the expression of stress responsive genes providing protection of wheat from salinity stress.</title>
+    <journal>Sci. Rep.</journal>
+    <volume>6,</volume>
+    <pages>34768.</pages>
+    <doi>doi: 10.1038/srep34768</doi>
+  </sequence>
+  <sequence>
+    <author>Tang, Y., Rijal, R., Zimmerhanzel, D. E., Mccullough, J. R., and Gomer, R. H.</author>
+    <date>(2021).</date>
+    <container-title>An Autocrine Negative Feedback Loop Inhibits Dictyostelium discoideum Proliferation through Pathways Including IP3/Ca 2+. mBio</container-title>
+  </sequence>
+  <sequence>
+    <author>Pokotylo, I., Pejchar, P., Potock�, M., Kocourkov�, D., Kr?kov�, Z., Ruelland, E., Kravets, V., and Martinec, J.</author>
+    <date>(2013).</date>
+    <title>The plant non-specific phospholipase C gene family.</title>
+    <container-title>Novel competitors in lipid signalling. Progress in Lipid Research.</container-title>
+  </sequence>
+  <sequence>
+    <author>Kocourkova, D., Krckova, Z., Pejchar, P., Veselkova, S., Valentova, O., Wimalasekera, R., Scherer, G. F. E., and Martinec, J.</author>
+    <date>(2011).</date>
+    <title>The phosphatidylcholine-hydrolysing phospholipase C NPC4 plays a role in response of Arabidopsis roots to salt stress.</title>
+    <journal>Journal of Experimental Botany,</journal>
+    <volume>62(11),</volume>
+    <pages>3753-3763.</pages>
+  </sequence>
+  <sequence>
+    <author>Nitbani, F. O., Tjitda, P. J. P., Wogo, H. E., and Detha, A. I. R.</author>
+    <date>(2022).</date>
+    <title>Preparation of Ricinoleic Acid from Castor Oil :</title>
+    <journal>A Review. Journal of oleo</journal>
+    <volume>science(6),</volume>
+    <pages>71.</pages>
+  </sequence>
+  <sequence>
+    <author>Kucharzik T, Koletzko S, Kannengiesser K, Dignass A</author>
+    <date>(2020).</date>
+    <title>Ulcerative Colitis-Diagnostic and Therapeutic Algorithms.</title>
+    <journal>Deutsches Arzteblatt International</journal>
+    <volume>117:</volume>
+    <pages>564-574.</pages>
+  </sequence>
+  <sequence>
+    <author>Zhou L, Wang X, Wang X, An J, Zheng X, Han D, Chen Z</author>
+    <date>(2022).</date>
+    <title>Neuroprotective effects of human umbilical cord mesenchymal stromal cells in PD mice via centrally and peripherally suppressing NLRP3 inflammasome-mediated inflammatory responses.</title>
+    <journal>Biomedicine &amp; Pharmacotherapy</journal>
+    <volume>153:113535</volume>
+  </sequence>
+  <sequence>
+    <author>Pontell L, Castelucci P, Bagy�nszki M, Jovic T, Thacker M, Nurgali K, Bron R, Furness JB</author>
+    <date>(2009).</date>
+    <title>Structural changes in the epithelium of the small intestine and immune cell infiltration of enteric ganglia following acute mucosal damage and local inflammation.</title>
+    <journal>Virchows Archiv</journal>
+    <volume>455:</volume>
+    <pages>55-65.</pages>
+  </sequence>
+  <sequence>
+    <author>Costa MC, Calderon-Dominguez M, Mangas A, Campuzano O, Sarquella-Brugada G, Ramos M, Quezada-Feijoo M, Pinilla J M G, Robles-Mezcua A, Del Aguila Pacheco-Cruz G et al.</author>
+    <date>(2021).</date>
+    <title>Circulating circRNA as biomarkers for dilated cardiomyopathy etiology.</title>
+    <journal>J Mol Med (Berl),</journal>
+    <volume>99:</volume>
+    <pages>1711-1725.</pages>
+    <url>https://doi.org/10.1007/s00109-021-02119-6</url>
+  </sequence>
+  <sequence>
+    <author>Q. Wang, H. Gao, B. Jiang, S.C. Li, M.C. He et al.,</author>
+    <title>�Research on reasonable coal pillar width of roadway driven along goaf in deep mine,�</title>
+    <journal>Arabian Journal of Geosciences,</journal>
+    <volume>vol. 10,</volume>
+    <pages>2017.</pages>
+    <url>https://doi.org/10.1007/ s12517-017-3252-1.</url>
+  </sequence>
+  <sequence>
+    <author>D. Serdyuk, Y. Wang, C. Fuegen, A. Kumar, B. Liu et al.,</author>
+    <title>�Towards end-to-end spoken language understanding,�</title>
+    <container-title>in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP),</container-title>
+    <pages>pp. 5754-5758,</pages>
+    <date>2018.</date>
+  </sequence>
+  <sequence>
+    <author>S. Schuster, S. Gupta, R. Shah and M., Lewis,</author>
+    <title>�Cross-lingual transfer learning for multilingual task oriented dialog,�</title>
+    <note>arXiv preprint arXiv: 1810.13327, 2018.</note>
+  </sequence>
+  <sequence>
+    <author>Chiu SI.</author>
+    <title>The relationship between life stress and smartphone addiction on Taiwanese university student: A mediation model of learning self-efficacy and social self-efficacy.</title>
+    <journal>Comput Hum [Internet].</journal>
+    <volume>2014;34:49-57.</volume>
+    <doi>DOI 10.1016/j.chb.2014.01.024</doi>
+  </sequence>
+  <sequence>
+    <author>Johnson RE, Muraven M, Donaldson T, Lin SH.</author>
+    <title>Self-control in work organizations [Internet].</title>
+    <editor>In: Ferris DL, Johnson RE, Sedikides C, editors,</editor>
+    <container-title>The self at work: Fundamental theory and research.</container-title>
+    <location>New York:</location>
+    <publisher>Routledge;</publisher>
+    <date>2017.</date>
+    <url>p:119-44.</url>
+  </sequence>
+  <sequence>
+    <author>Friese M, Frankenbach J, Job V, Loschelder DD.</author>
+    <title>Does self-control training improve self-control? A meta-analysis.</title>
+    <journal>Perspect Psychol Sci [Internet].</journal>
+    <volume>2017;12(6):1077-99.</volume>
+    <doi>DOI 10.1177/1745691617697076</doi>
+  </sequence>
+  <sequence>
+    <author>Bao, Y., Yang,M. L., Huang, H. B., Liu, L. Y., Zhu, H. L., et al.</author>
+    <date>(2023).</date>
+    <title>Research on Human-Vehicle-Road Friendliness Based on improved SH-GH-ADD control.</title>
+    <journal>Sound &amp; Vibration,</journal>
+    <volume>xx(x),</volume>
+    <pages>xx-xx.</pages>
+  </sequence>
+  <sequence>
+    <author>Rainieri, C., Fabbrocino, G.</author>
+    <date>(2014).</date>
+    <title>Operational Modal Analysis of Civil Engineering Structures.</title>
+    <publisher>Springer</publisher>
+    <location>New York. New York.</location>
+  </sequence>
+  <sequence>
+    <author>Magalh�es, F., Cunha, A., Caetano, E.</author>
+    <date>(2012).</date>
+    <title>Vibration based structural health monitoring of an arch bridge: From automated OMA to damage detection.</title>
+    <journal>Mechanical Systems and Signal Processing,</journal>
+    <volume>28,</volume>
+    <pages>212-228.</pages>
+  </sequence>
+  <sequence>
+    <author>He Y, Pang Y, Zhang Y, Fielding R, Tang L.</author>
+    <title>Dual role as a protective factor for burnout-related depersonalization in oncologists.</title>
+    <note>Psycho-Oncology [Internet]. ao�t 2017 [cit� 8 mars 2022];26(8):1080?6. Disponible sur:</note>
+    <url>https://onlinelibrary.wiley.com/doi/10.1002/pon.4425</url>
+  </sequence>
+  <sequence>
+    <title>Burnout among Lebanese Oncologists: Prevalence and Risk Factors -</title>
+    <note>PubMed [Internet]. [cit� 10 janv 2022]. Disponible sur:</note>
+    <url>https://pubmed.ncbi.nlm.nih.gov/30139216/</url>
+  </sequence>
+  <sequence>
+    <title>Burnout?: 70% des jeunes oncologues europ�ens �puis�s [Internet]. Medscape.</title>
+    <genre>[cit�</genre>
+    <date>18 janv 2022].</date>
+    <note>Disponible sur:</note>
+    <url>http://francais.medscape.com/voirarticle/3600995</url>
+  </sequence>
+  <sequence>
+    <author>Kaggle</author>
+    <date>(2019).</date>
+    <title>Asia pacific tele-ophthalmology society (aptos).</title>
+  </sequence>
+  <sequence>
+    <author>Administration, S. C.</author>
+    <date>(2016).</date>
+    <title>Our SM2 and SM9 digital signature algorithms officially become ISO/IEC international standard.</title>
+    <url>http://www.sca.gov.cn/sca/qjd/2017-11/17/content_1019960.shtml</url>
+  </sequence>
+  <sequence>
+    <author>World Health Organization,</author>
+    <title>Laboratory testing for coronavirus disease 2019 (COVID-19) in suspected human cases: Interim guidance,</title>
+    <date>2020.</date>
+  </sequence>
+  <sequence>
+    <author>D. Forney,</author>
+    <title>�On exponential error bounds for random codes on the BSC,� unpublished manuscript,</title>
+    <date>2001.</date>
+  </sequence>
+  <sequence>
+    <author>Kadlec R, Schmid M, Bajgar O, Kleindienst, J .</author>
+    <title>Text Understanding with the Attention Sum Reader Network: 10.18653/v1/P16-1086[P].</title>
+    <date>2016.</date>
+  </sequence>
+  <sequence>
+    <author>Cui Y, Chen Z, Wei S, Wang S, Liu T, Hu, G .</author>
+    <title>Attention-over-Attention Neural Networks for Reading Comprehension:</title>
+    <pages>10.18653/v1/P17-1055[P].</pages>
+    <date>2016.</date>
+  </sequence>
+  <sequence>
+    <author>Wilson J.</author>
+    <title>Using Automated Feedback to Improve Writing Quality: Opportunities and Challenges[M].</title>
+    <date>2016.</date>
+  </sequence>
+  <sequence>
+    <title>Information visualization in data mining and knowledge discovery[M].</title>
+    <publisher>Morgan Kaufmann,</publisher>
+    <date>2002</date>
+  </sequence>
+  <sequence>
+    <author>Yu Guan-yuan.</author>
+    <title>Research on the Impact of Extended Virtual Organization Structure on the Performance of University Scientific Research Teams from the Perspective of Big Data [D].</title>
+    <publisher>Southwest University of Finance and Economics,</publisher>
+    <date>2021</date>
+  </sequence>
+  <sequence>
+    <author>Liu Juan.</author>
+    <title>Research on the relationship between social capital and innovation performance of graduate students of medical research team in universities [D].</title>
+    <publisher>East China Normal University,</publisher>
+    <date>2020</date>
+  </sequence>
+  <sequence>
+    <author>Alex Chen.</author>
+    <title>China�s Ministry of Education directly under the institutions of higher learning asset management performance evaluation [D].</title>
+    <publisher>South China University of Technology,</publisher>
+    <date>2019.</date>
+  </sequence>
+  <sequence>
+    <author>Yu Huajun.</author>
+    <title>Study on the Incentive Factors and Performance Impact of University Teachers Based on Group Characteristics [D].</title>
+    <publisher>East China Normal University,</publisher>
+    <date>2016.</date>
+  </sequence>
+  <sequence>
+    <author>Wang Yuzhe.</author>
+    <title>Study on education management of PPP Projects [D].</title>
+    <publisher>Beijing University of Architecture and Architecture,</publisher>
+    <date>2020.</date>
+  </sequence>
+  <sequence>
+    <author>Han, H., Oh, D., and Cha, S. K.</author>
+    <date>(2019).</date>
+    <title>CodeAlchemist: Semantics-Aware Code Generation to Find Vulnerabilities in JavaScript Engines.</title>
+    <publisher>(February).</publisher>
+  </sequence>
+  <sequence>
+    <author>Rigger, M.</author>
+    <date>(2023).</date>
+    <title>SQLancer.</title>
+    <url>https://github.com/sqlancer/sqlancer.</url>
+    <note>Accessed on 2023- 3-20.</note>
+  </sequence>
+  <sequence>
+    <author>Liu, Q., Wang, W., Sun, L., Fan, Y., Wu, L., and Wang, M.</author>
+    <date>(2022).</date>
+    <title>More inputs makes difference: Implementations of linear layers using gates with more than two inputs.</title>
+    <journal>Cryptology ePrint Archive, Paper</journal>
+    <date>2022/747.</date>
+    <url>https://eprint.iacr.org/2022/747.</url>
+  </sequence>
+  <sequence>
+    <author>Chen, K.</author>
+    <date>(2021).</date>
+    <title>Iso new england data.</title>
+    <url>https://github.com/yalickj/load-forecasti ng-resnet.</url>
+  </sequence>
+  <sequence>
+    <author>MULLA, R.</author>
+    <date>(2018).</date>
+    <title>Hourly energy consumption.</title>
+    <url>https://www.kaggle.com/datasets/robi kscube/hourly-energy-consumption.</url>
+  </sequence>
+  <sequence>
+    <title>NTDC ((Date last accessed 01-January-2019)). Government of pakistan, ministry of energy.</title>
+    <url>http: //gepco.com.pk/CS_Policies/Tarrif.pdf.</url>
+  </sequence>
+  <sequence>
+    <author>NFP94-055.(1993)</author>
+    <title>Organic matter content of a soil.</title>
+    <volume>AFNOR.;9.</volume>
+  </sequence>
+  <sequence>
+    <pages>NFP94-056.</pages>
+    <date>(1996)</date>
+    <title>Particle size analysis.</title>
+    <publisher>AFNOR.</publisher>
+  </sequence>
+  <sequence>
+    <pages>NFP94-051.</pages>
+    <date>(1993).</date>
+    <title>Determination of Atterberg limits.</title>
+    <editor>AFNOR, editor. AFNOR.</editor>
+  </sequence>
+  <sequence>
+    <pages>NFP15-433.</pages>
+    <date>(1994)</date>
+    <title>Test methods for cements-Determination of shrinkage and swelling.</title>
+  </sequence>
+  <sequence>
+    <pages>NFEN196-1.</pages>
+    <date>(1995).</date>
+    <title>Cement testing methods Determination of mechanical strength.</title>
+    <journal>AFNOR</journal>
+  </sequence>
+  <sequence>
+    <author>Chaves M.</author>
+    <date>2021.</date>
+    <title>GLCMs . a Great Tool for Your ML Arsenal.</title>
+    <journal>towardsdatascience.com.</journal>
+    <date>January 21, 2021.</date>
+    <url>https://towardsdatascience.com/glcms-a-great-tool-for-your-ml-arsenal-7a59f1e45b65.</url>
+    <note>Accessed July 25, 2022.</note>
+  </sequence>
+  <sequence>
+    <author>Krizhevsky A, Nair V, Hinton G.</author>
+    <date>2014.</date>
+    <title>The CIFAR-10 Dataset.</title>
+  </sequence>
+  <sequence>
+    <author>Almudhaf, F.</author>
+    <date>2012.</date>
+    <title>�The Islamic Calendar Effects:</title>
+    <note>Evidence From Twelve Stock Markets.� Available at SSRN 2131202.</note>
+  </sequence>
+  <sequence>
+    <author>Gupta and Ayush,</author>
+    <title>A comprehensive guide on deep learning optimizers,</title>
+    <date>2021.</date>
+    <note>[Online]. Available:</note>
+    <url>https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/.</url>
+  </sequence>
+  <sequence>
+    <author>MLIT,</author>
+    <title>TheMandatory Registration of Unmanned Aircraft Became Effective.</title>
+    <journal>Unmanned Aircraft Registration Web Porta,</journal>
+    <date>2022.</date>
+    <note>[Online]. Available:</note>
+    <url>https://www.mlit.go.jp/koku/drone/en/</url>
+  </sequence>
+  <sequence>
+    <author>Seltenreich, A., Tang, B., and Mullender, S.</author>
+    <date>(2022).</date>
+    <title>SQLsmith.</title>
+    <url>https://github.com/anse1/sqlsmith.</url>
+    <note>Accessed on 2023-3-20.</note>
+  </sequence>
+  <sequence>
+    <title>Open Educational Resources Commons.</title>
+    <date>(2020).</date>
+    <title>Getting started with OER.</title>
+    <url>https://www.oercommons.org</url>
+  </sequence>
+  <sequence>
+    <title>Google Information Security Engineering Team</title>
+    <date>(2020).</date>
+    <title>Improving open source security during the Google summer internship program.</title>
+    <url>https://security.googleblog.com/2020/12/ improving-open-source-security-during.html.</url>
+    <note>Accessed on 2023-3-20.</note>
+  </sequence>
+  <sequence>
+    <author>Google Security Team</author>
+    <date>(2018).</date>
+    <title>A New Chapter for OSS-Fuzz.</title>
+    <url>https://security.googleblog. com/2018/11/a-new-chapter-for-oss-fuzz.html.</url>
+    <note>Accessed on 2023-3-20.</note>
+  </sequence>
+  <sequence>
+    <author>Banik, S., Funabiki, Y., and Isobe, T.</author>
+    <date>(2019).</date>
+    <title>More results on shortest linear programs.</title>
+    <journal>Cryptology ePrint Archive, Paper</journal>
+    <date>2019/856.</date>
+    <url>https://eprint.iacr.org/2019/856.</url>
+  </sequence>
+  <sequence>
+    <author>Peach Tech</author>
+    <date>(2020).</date>
+    <title>Peach Fuzzer.</title>
+    <url>https://gitlab.com/peachtech/peach-fuzzer-community.</url>
+    <note>Accessed on 2023-3-20.</note>
+  </sequence>
+  <sequence>
+    <author>Zalewski, M.</author>
+    <date>(2017).</date>
+    <title>AFL - American Fuzzy Lop.</title>
+    <url>http://lcamtuf.coredump.cx/afl/.</url>
+    <note>Accessed on 2023-3-20.</note>
+  </sequence>
+  <sequence>
+    <author>�MediaPipe,�</author>
+    <date>2022</date>
+    <note>[Online]. Available:</note>
+    <url>https://mediapipe.dev</url>
+    <note>(accessed Feb. 18, 2022).</note>
+  </sequence>
+  <sequence>
+    <author>LeCun Y, Cortes C, Burges C.</author>
+    <date>1998.</date>
+    <title>The MNIST Database of Handwritten Digits.</title>
+    <location>New York, USA.</location>
+    <url>http://yann.lecun.com/exdb/mnist/</url>
+  </sequence>
+  <sequence>
+    <date>(2023).</date>
+    <title>Boofuzz: Network Protocol Fuzzing for Humans.</title>
+    <url>https://github.com/jtpereyda/ boofuzz.</url>
+    <note>Accessed on 2023-3-20.</note>
+  </sequence>
+  <sequence>
+    <date>(2023).</date>
+    <title>Honggfuzz.</title>
+    <url>https://github.com/google/honggfuzz.</url>
+    <note>Accessed on 2023-3-20.</note>
+  </sequence>
+  <sequence>
+    <date>(2023).</date>
+    <title>libFuzzer - a library for coverage-guided fuzz testing.</title>
+    <url>http://llvm.org/docs/ LibFuzzer.html.</url>
+    <note>Accessed on 2023-3-20.</note>
+  </sequence>
+  <sequence>
+    <author>Google</author>
+    <date>(2015).</date>
+    <title>syzkaller - kernel fuzzer.</title>
+    <url>https://github.com/google/syzkaller.</url>
+    <note>Accessed on 2023-3-20.</note>
+  </sequence>
+  <sequence>
+    <author>Mehta H, Krichene W.</author>
+    <date>2023.</date>
+    <title>Leveraging transfer learning for large scale differentially private image classification.</title>
+    <container-title>Google AI Blog.</container-title>
+    <url>https://ai.googleblog.com/2023/03/leveraging-transfer-learning-for-large.html</url>
+  </sequence>
+  <sequence>
+    <author>Team K.</author>
+    <date>2023.</date>
+    <title>Keras documentation: Keras Applications.</title>
+    <journal>Keras.</journal>
+    <note>Retrieved June 5, 2023, from</note>
+    <url>https://keras.io/api/applications/</url>
+  </sequence>
+  <sequence>
+    <author>Bjekic, M.</author>
+    <date>(2022).</date>
+    <title>Wall segmentation.</title>
+    <url>https://github.com/bjekic/WallSegmentation, https://doi.org/10.5281/zenodo.7944202,</url>
+    <doi>DOI:10.5281/zenodo.7944202.</doi>
+  </sequence>
+  <sequence>
+    <author>Mason, M.</author>
+    <date>(2022).</date>
+    <title>Understanding bayes error: How a low cost machine learning strategy could have a big impact.</title>
+    <url>https://www.linkedin.com/pulse/understanding-bayes-error-how-low-cost-machine-learning-malcolm-mason.</url>
+  </sequence>
+  <sequence>
+    <author>World Health Organization.</author>
+    <title>ICD-11 for Mortality and Morbidity Statistics.</title>
+    <note>Available from:</note>
+    <url>https://icd.who.int/browse11/l-m/en#/http://id.who.int/icd/entity/264310751.</url>
+    <note>[Accessed 2023].</note>
+  </sequence>
+  <sequence>
+    <title>Society for Human Resources Management (SHRM)</title>
+    <date>(2022).</date>
+    <title>Practicing Strategic Human Resources Management.</title>
+    <note>Retrieved from:</note>
+    <url>https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/practicingstrategichumanresources.aspx</url>
+  </sequence>
+  <sequence>
+    <author>Xinhua.</author>
+    <title>China Focus: China releases measures to optimize COVID-19 response.</title>
+    <note>Available from:</note>
+    <url>https://english.news.cn/20221111/d4399114a082438eaac32d08a02bf58d/c.html.</url>
+    <note>[Accessed 2022].</note>
+  </sequence>
+  <sequence>
+    <author>Xinhua.</author>
+    <title>China Focus: COVID-19 response further optimized with 10 new measures.</title>
+    <note>Available from:</note>
+    <url>https://english.news.cn/20221207/ca014c043bf24728b8dcbc0198565fdf/c.html.</url>
+    <note>[Accessed 2022].</note>
+  </sequence>
+  <sequence>
+    <author>Xinhua.</author>
+    <title>Xinhua Commentary: Is China really ill-prepared for its new phase of COVID response?</title>
+    <note>Available from:</note>
+    <url>https://english.news.cn/20230120/23ddb76dee964dd6a9f934e507ae4bae/c.html.</url>
+    <note>[Accessed 2023].</note>
+  </sequence>
+  <sequence>
+    <author>World Health Organization.</author>
+    <date>(2013).</date>
+    <title>Guidelines for the management of conditions specifically related to stress.</title>
+    <genre>WHO.</genre>
+    <url>https://www.who.int/publications/i/item/guidelines-for-the-management-of-conditions-that-are-specifically-related-to-stress</url>
+  </sequence>
+  <sequence>
+    <author>Felsenstein J.</author>
+    <date>2005.</date>
+    <title>PHYLIP. Version 3.6. Software package, Department of Genome Sciences,</title>
+    <publisher>University of Washington,</publisher>
+    <location>Seattle, USA.</location>
+    <note>Available at</note>
+    <url>https://evolution.genetics.washington.edu/phylip.html</url>
+  </sequence>
+  <sequence>
+    <author>Rstudio T.</author>
+    <date>2020.</date>
+    <title>RStudio: integrated development for R.</title>
+    <publisher>Rstudio Team, PBC,</publisher>
+    <location>Boston, MA.</location>
+    <note>Available at</note>
+    <url>http://www.rstudio.com/.</url>
+  </sequence>
+  <sequence>
+    <author>Reichelt, K. M.</author>
+    <date>(2007).</date>
+    <title>�University technology transfer and national innovation policy: Success stories from Brazil, Colombia and South Africa�.</title>
+    <journal>International Intellectual Property Institute.</journal>
+    <note>url:</note>
+    <url>http://iipi.org/wp-content/uploads/2010/07/UniversityTechTransfer_072507.pdf.</url>
+  </sequence>
+  <sequence>
+    <editor>Simmons, R., Fajans, P., Ghiron, L., Eds.</editor>
+    <date>(2007).</date>
+    <title>Scaling up health service delivery: From pilot innovations to policies and programmes.</title>
+    <journal>World Health Organization.</journal>
+    <note>Retrieved April 3, 2020, from</note>
+    <url>http://www.who.int/ reproductivehealth/publications/strategic_approach/9789241563512/en/index.html and http://www.expandnet.net/tools.htm</url>
+  </sequence>
+  <sequence>
+    <author>R. Hasegawa, Y. Iwamoto and Y. W. Chen,</author>
+    <title>""Robust Japanese road sign detection and recognition in complex scenes using convolutional neural networks,""</title>
+    <journal>Journal of Image and Graphics,</journal>
+    <volume>vol. 8, no. 3,</volume>
+    <pages>pp. 59-66,</pages>
+    <date>2020.</date>
+  </sequence>
+  <sequence>
+    <author>Chambers, D. A., &amp; Norton, W. E.</author>
+    <date>(2016).</date>
+    <title>The adaptome: Advancing the science of intervention adaptation.</title>
+    <journal>American Journal of Preventive Medicine,</journal>
+    <volume>51(4 Suppl. 2),</volume>
+    <pages>S124�S131.</pages>
+    <url>http://doi.org/10.1016/j.amepre.2016.05.011</url>
+  </sequence>
+  <sequence>
+    <author>F. Wang, G. S. Li, Y. L. Wang, R. Wajid, Khosravi et al.</author>
+    <title>""Privacy-aware traffic flowprediction based on multi-party sensor data with zero trust in smart city.""</title>
+    <note>ACM Transactions on Internet Technology (TOIT), 2022.</note>
+    <url>https://doi.org/10.1145/3511904.</url>
+  </sequence>
+  <sequence>
+    <author>J. W. Huang, Z. Y. Tong and Z. H. Feng.</author>
+    <title>""Geographical POI recommendation for Internet of Things: A federated learning approach using matrix factorization.""</title>
+    <journal>International Journal of Communication Systems,</journal>
+    <pages>pp: e5161,</pages>
+    <date>2022.</date>
+  </sequence>
+  <sequence>
+    <author>Hofmann, C. and R. J. Indjejikian</author>
+    <date>(2021).</date>
+    <title>Authority, Monitoring, and Incentives in Hierarchies.</title>
+    <journal>Contemporary Accounting Research</journal>
+    <volume>38(3),</volume>
+    <pages>1643�1678.</pages>
+  </sequence>
+  <sequence>
+    <author>Y. Yang, X. Yang, M. H. Heidari, K. M. Ayoub, G. Srivastava et al.</author>
+    <title>""ASTREAM: Data-Stream-Driven Scalable Anomaly Detection with Accuracy Guarantee in IIoT Environment,""</title>
+    <journal>IEEE Transactions on Network Science and Engineering,</journal>
+    <date>2022.</date>
+    <doi>doi: 10.1109/TNSE.2022.3157730.</doi>
+  </sequence>
+  <sequence>
+    <author>H. Amirkhani and M. Rahmati,</author>
+    <title>�New framework for using image contents in blind steganalysis systems,�</title>
+    <journal>Journal of Electronic Imaging,</journal>
+    <volume>vol. 20, no.1,</volume>
+    <pages>pp. 013016-013016,</pages>
+    <date>2011.</date>
+  </sequence>
+  <sequence>
+    <author>Korkmazlar, U., Bozkurt, B., &amp; Tan Tunca, D.</author>
+    <date>(2020).</date>
+    <title>EMDR group protocol with children: A field study.</title>
+    <journal>Journal of EMDRIA,</journal>
+    <volume>14(1),</volume>
+    <pages>13�30</pages>
+  </sequence>
+  <sequence>
+    <author>Goodfellow, I.</author>
+    <date>(2015).</date>
+    <title>Challenges in representation learning: A report on three machine learning contests.</title>
+    <journal>Neural Networks. figshare</journal>
+    <url>https://www.kaggle.com/datasets/deadskull7/fer2013/download.</url>
+  </sequence>
+  <sequence>
+    <author>P�rez, M. C., Est�vez, M. E., Becker, Y., Osorio, A., Jarero, I., &amp; Givaudan, M.</author>
+    <date>(2020).</date>
+    <title>Multisite randomized controlled trial on the provision of the EMDR integrative group treatment protocol for ongoing traumatic stress remote to healthcare professionals working in hospitals during the Covid-19 pandemic.</title>
+    <journal>Psychology and Behavioral Science International Journal,</journal>
+    <volume>15(4),</volume>
+    <pages>1�12.</pages>
+    <url>https://doi.org/10.19080/PBSIJ.2020.15.555920</url>
+  </sequence>
+  <sequence>
+    <author>Yurtsever, A., Konuk, E., Aky�z, T., Zat, Z., T�kel, F., �etinkaya, M., Savran, C., &amp; Shapiro, E.</author>
+    <date>(2018).</date>
+    <title>An eye movement desensitization and reprocessing (EMDR) group intervention for Syrian refugees with post-traumatic stress symptoms: Results of a randomized controlled trial.</title>
+    <journal>Frontiers in Psychology,</journal>
+    <volume>9,</volume>
+    <pages>493.</pages>
+  </sequence>
+  <sequence>
+    <author>Hase, M., Balmaceda, U. M., Ostacoli, L., Liebermann, P., &amp; Hofmann, A.</author>
+    <date>(2017).</date>
+    <title>The AIP model of EMDR therapy and pathogenic memories.</title>
+    <journal>Frontiers in Psychology,</journal>
+    <volume>8,</volume>
+    <pages>1578.</pages>
+    <url>https://doi.org/10.3389/fpsyg.2017.01578</url>
+  </sequence>
+  <sequence>
+    <author>Lind, D.</author>
+    <date>(2017).</date>
+    <title>What chain migration really means.</title>
+    <publisher>Vox.</publisher>
+  </sequence>
+  <sequence>
+    <author>Goodfellow, I.</author>
+    <date>(2015).</date>
+    <title>Challenges in representation learning: A report on three machine learning contests.</title>
+    <journal>Neural Networks. figshare</journal>
+    <url>https://www.kaggle.com/datasets/deadskull7/fer2013/download.</url>
+  </sequence>
+  <sequence>
+    <author>Meyer, M. A.</author>
+    <date>(1995).</date>
+    <title>Cooperation and competition in organizations: A dynamic perspective.</title>
+    <journal>European Economic Review</journal>
+    <volume>39,</volume>
+    <pages>709�722.</pages>
+  </sequence>
+  <sequence>
+    <author>Yagudina, R.I., Kulikov, A.U., Serpik, V.G. &amp; Ugrekhelidze, D.T.</author>
+    <date>(2017).</date>
+    <title>Concept of combining cost-effectiveness analysis and budget impact analysis in health care decision-making.</title>
+    <journal>Value in Health Regional Issues,</journal>
+    <volume>13(c):61-66.</volume>
+    <doi>doi.org:10.1016/j.vhri.2017.07.006</doi>
+  </sequence>
+  <sequence>
+    <author>Titler, M. G., Kleiber, C., Steelman, V., Goode, C., Rakel, B., Barry-Walker, J., . . . Buckwalter, K.</author>
+    <date>(1994).</date>
+    <title>Infusing research into practice to promote quality care.</title>
+    <journal>Nursing Research,</journal>
+    <volume>43(5),</volume>
+    <pages>307�313.</pages>
+    <note>Retrieved from</note>
+    <url>http://www.ncbi.nlm.nih.gov/pubmed/7937178</url>
+  </sequence>
+  <sequence>
+    <author>D. Kwon, S. Son, Y. Park, H. Kim, Y. Park et al.,</author>
+    <title>�Design of secure handover authentication scheme for urban air mobility environments,�</title>
+    <journal>IEEE Access,</journal>
+    <volume>vol. 10,</volume>
+    <pages>pp. 42529�42541,</pages>
+    <date>2022.</date>
+  </sequence>
+  <sequence>
+    <author>Aselta, R.</author>
+    <date>(2023).</date>
+    <title>Integrating Evidence Based Practice into an Emergency Department Nurse Residency Program.</title>
+    <journal>Journal for Nurses in Professional Development.</journal>
+    <note>Retrieved on-line at:</note>
+    <url>http://ovidsp.ovid.com/ovidweb.cgi?T=JS&amp;PAGE=reference&amp;D=ovftz&amp;NEWS=N&amp;AN=01709760-900000000-99780.</url>
+    <doi>doi.org/10.1097/NND.0000000000000881</doi>
+  </sequence>
+  <sequence>
+    <author>Rivilla-Garc�a J, Calvo LC, Jim�nez-Rubio S, Paredes-Hern�ndez V, Mu�oz A, den Tillaar R, Navandar A.</author>
+    <date>2019.</date>
+    <title>Characteristics of very high intensity runs of soccer players in relation to their playing position and playing half in the 2013-14 Spanish la Liga Season.</title>
+    <journal>Journal of Human Kinetics</journal>
+    <volume>66(1):213�222</volume>
+    <doi>DOI 10.2478/hukin-2018-0058.</doi>
+  </sequence>
+  <sequence>
+    <author>Rojas-Valverde D, G�mez-Carmona CD, Guti�rrez-Vargas R, Pino-Ortega J.</author>
+    <date>2019.</date>
+    <title>From big data mining to technical sport reports: the case of inertial measurement units.</title>
+    <journal>BMJ Open Sport &amp; Exercise Medicine</journal>
+    <volume>5(1):e000565</volume>
+    <doi>DOI 10.1136/bmjsem-2019-000565.</doi>
+  </sequence>
+  <sequence>
+    <author>di Prampero PE, Fusi S, Sepulcri L, Morin JB, Belli A, Antonutto G.</author>
+    <date>2005.</date>
+    <title>Sprint running: a new energetic approach.</title>
+    <journal>The Journal of Experimental Biology</journal>
+    <volume>208(Pt 14):2809�2816</volume>
+    <doi>DOI 10.1242/jeb.01700.</doi>
+  </sequence>
+  <sequence>
+    <author>Grusak M.</author>
+    <date>2002.</date>
+    <title>Enhancing mineral content in plant food products.</title>
+    <journal>Journal of the American College of Nutrition</journal>
+    <volume>21(sup3):178�183</volume>
+    <doi>DOI 10.1080/07315724.2002.10719263.</doi>
+  </sequence>
+  <sequence>
+    <author>Knechel, W. R., E. Thomas, and M. Driskill</author>
+    <date>(2020).</date>
+    <title>�Understanding financial auditing from a service perspective�.</title>
+    <journal>Accounting, Organization and Society.</journal>
+    <volume>81(February):</volume>
+    <pages>101080.</pages>
+    <doi>doi: 10.1016/j.aos.2019.101080.</doi>
+  </sequence>
+  <sequence>
+    <author>S. Seo, D. Chen, K. Kim, K. Kang, D. Koo et al.,</author>
+    <title>""Temporary traffic control device detection for road construction projects using deep learning application,""</title>
+    <container-title>in Proc. of Construction Research Congress 2022,</container-title>
+    <location>Arlington, Virginia,</location>
+    <pages>pp. 392-401,</pages>
+    <date>2022.</date>
+  </sequence>
+  <sequence>
+    <author>Congress, E.</author>
+    <date>(2007, September 6).</date>
+    <title>The impact of climate change on migrants: Current issues and future challenges.</title>
+    <container-title>Department of Public Information/Non-Governmental Organizations Conference,</container-title>
+    <location>United Nations, New York, NY.</location>
+  </sequence>
+  <sequence>
+    <author>Melnyk, B. M., &amp; Fineout-Overholt, E.</author>
+    <date>(2011).</date>
+    <title>The ARCC model and role of EBP mentors in promoting professional practice attributes.</title>
+    <container-title>Presented at Sigma Theta Tau International Conference.</container-title>
+    <location>Phoenix, AZ:</location>
+    <publisher>Arizona State University.</publisher>
+  </sequence>
+  <sequence>
+    <author>Fisseha H, Bereket H, Hintsa L, Sofonyas D, Abbadi G, Mitiku H.</author>
+    <date>2020.</date>
+    <title>Tigray agricultural research institute (TARI) agricultural growth program-II AGP-II): the role of blended fertilizers in enhancing productivity and quality of crops in Ethiopia.</title>
+    <container-title>In: Proceedings of the National Workshop held 07-08</container-title>
+    <date>June 2019.</date>
+    <publisher>Axum Hotel,</publisher>
+    <location>Mekelle, Ethiopia.</location>
+  </sequence>
+  <sequence>
+    <author>Jamal, E., Istriningsih, and V. W. Hanifah</author>
+    <date>(2016).</date>
+    <title>�Model of technology commercialization from government research institutions in Indonesia�.</title>
+    <container-title>In: Paper Presented at the International Workshop on �Effective IP Protection and Commercialization Strategies for Agricultural Innovation�, October 18�20, MARDI Headquarters,</container-title>
+    <location>Serdang, Selangor, Malaysia.</location>
+  </sequence>
+  <sequence>
+    <author>Zhang, J. and V. Varadharajan</author>
+    <date>(2008).</date>
+    <title>�A new security scheme for wireless sensor networks�.</title>
+    <container-title>In: IEEE GLOBECOM 2008-2008 IEEE Global Telecommunications Conference.</container-title>
+    <pages>1�5.</pages>
+  </sequence>
+  <sequence>
+    <author>Wurm, J., K. Hoang, O. Arias, A.-R. Sadeghi, and Y. Jin</author>
+    <date>(2016).</date>
+    <title>�Security analysis on consumer and industrial IoT devices�.</title>
+    <container-title>In: 2016 21st Asia and South Pacific Design Automation Conference (ASPDAC). IEEE.</container-title>
+    <pages>519�524.</pages>
+  </sequence>
+  <sequence>
+    <author>Sadeghi, A.-R., C. Wachsmann, and M. Waidner</author>
+    <date>(2015).</date>
+    <title>�Security and privacy challenges in industrial internet of things�.</title>
+    <container-title>In: Proceedings of the 52nd Annual Design Automation Conference. ACM.</container-title>
+    <pages>54.</pages>
+  </sequence>
+  <sequence>
+    <author>Moy, T., W. Rieutort-Louis, Y. Hu, L. Huang, J. Sanz-Robinson, J. C. Sturm, S. Wagner, and N. Verma</author>
+    <date>(2014).</date>
+    <title>�Thin-film circuits for scalable interfacing between large-area electronics and CMOS ICs�.</title>
+    <container-title>In: Device Research Conference.</container-title>
+    <pages>271�272.</pages>
+  </sequence>
+  <sequence>
+    <author>Linz, T., C. Kallmayer, R. Aschenbrenner, and H. Reichl</author>
+    <date>(2006).</date>
+    <title>�Fully untegrated EKG shirt based on embroidered electrical interconnections with conductive yarn and miniaturized flexible electronics�.</title>
+    <container-title>In: International Workshop on Wearable and Implantable Body Sensor Networks.</container-title>
+    <pages>4pp.</pages>
+  </sequence>
+  <sequence>
+    <author>R. Mori and T. Tanaka,</author>
+    <title>�Performance and construction of polar codes on symmetric binary-input memoryless channels,�</title>
+    <container-title>in 2009 IEEE International Symposium on Information Theory,</container-title>
+    <pages>pp. 1496�1500,</pages>
+    <date>2009.</date>
+  </sequence>
+  <sequence>
+    <author>S. Kudekar, S. Kumar, M. Mondelli, H. D. Pfister, E. Sasoglu, and R. Urbanke,</author>
+    <title>�Reed-Muller codes achieve capacity on erasure channels,�</title>
+    <container-title>in Proceedings of the Forty-Eighth Annual ACM Symposium on Theory of Computing (STOC), ACM,</container-title>
+    <pages>pp. 658�669,</pages>
+    <date>2016.</date>
+  </sequence>
+  <sequence>
+    <author>S. Kopparty and A. Potukuchi,</author>
+    <title>�Syndrome decoding of Reed� Muller codes and tensor decomposition over finite fields,�</title>
+    <container-title>in Proceedings of the Twenty-Ninth Annual ACM-SIAM Symposium on Discrete Algorithms, SODA 2018,</container-title>
+    <location>New Orleans, LA, USA,</location>
+    <date>January 7-10, 2018,</date>
+    <pages>pp. 680�691,</pages>
+    <date>2018.</date>
+  </sequence>
+  <sequence>
+    <author>Morrow, R.</author>
+    <date>(2020).</date>
+    <title>Resource 1: Levels of care for the coronavirus.</title>
+    <editor>In M. Luber (Ed.),</editor>
+    <container-title>EMDR resources in the Era of COVID-19. Self-published.</container-title>
+    <url>https://marilynluber.files.wordpress.com/2020/06/emdr-resources-for-covid.pdf</url>
+  </sequence>
+  <sequence>
+    <author>Montero, A.</author>
+    <date>(2022).</date>
+    <title>EMDR in a group setting GEMDR.</title>
+    <editor>In M. Nickerson (Ed.),</editor>
+    <container-title>Cultural competence and healing culturally based trauma with EMDR therapy: Innovative strategies and protocols</container-title>
+    <edition>(2nd ed.,</edition>
+    <pages>pp. 4�14).</pages>
+    <publisher>Springer.</publisher>
+  </sequence>
+  <sequence>
+    <author>Matsumura, E. M.</author>
+    <date>(1988).</date>
+    <title>Sequential choice under moral hazard.</title>
+    <editor>In G. A. Feltham, A. A. Amershi, and W. T. Ziemba (Eds.),</editor>
+    <container-title>Economic Analysis of Information and Contracts, Essays in Honor of John E. Butterworth,</container-title>
+    <pages>pp. 221�245.</pages>
+    <publisher>Kluwer Academic Publishers.</publisher>
+  </sequence>
+  <sequence>
+    <author>Zhukov, D., Alayrac, J.-B., Cinbis, R. G., Fouhey, D., Laptev, I., and Sivic, J.</author>
+    <date>(2019).</date>
+    <title>Cross-task weakly supervised learning from instructional videos.</title>
+    <container-title>In CVPR</container-title>
+  </sequence>
+  <sequence>
+    <author>Adams, S.</author>
+    <date>(2022).</date>
+    <title>Identifying research questions.</title>
+    <editor>In N. A. Schmidt &amp; J. M. Brown (Eds.),</editor>
+    <container-title>Evidence-based practice for nurses: Appraisal and application of research,</container-title>
+    <edition>5th ed.</edition>
+    <pages>(pp. 87).</pages>
+    <location>Jones &amp; Bartlett.</location>
+  </sequence>
+  <sequence>
+    <author>Peters, R. M.</author>
+    <date>(2019).</date>
+    <title>Quantitative designs: Using numbers to provide evidence.</title>
+    <editor>In N. A. Schmidt &amp; J. M. Brown (Eds.),</editor>
+    <container-title>Evidence-based practice for nurses: Appraisal and application of research,</container-title>
+    <edition>(4th ed.).</edition>
+    <location>Jones &amp; Bartlett.</location>
+  </sequence>
+  <sequence>
+    <author>Zuniga, P.</author>
+    <date>(2011).</date>
+    <title>�The State of patenting at research institutions in developing countries: Policy approaches and practices�.</title>
+    <container-title>Working Monograph of the World Intellectual Property Organization.</container-title>
+  </sequence>
+  <sequence>
+    <author>Mowery, D. C.</author>
+    <date>(2005).</date>
+    <title>�The Bayh-Dole Act and high technology entrepreneurship in U.S. universities: Chicken, egg, or something else?� In: University Entrepreneurship and Technology Transfer: Process, Design, and Intellectual Property.</title>
+    <editor>Ed. by G. D. Libecap.</editor>
+    <location>Bingley, UK:</location>
+    <publisher>Emerald Publishers.</publisher>
+    <note>39�68.</note>
+  </sequence>
+  <sequence>
+    <author>Zayek, M.</author>
+    <date>(2020).</date>
+    <title>Bronchopulmonary dysplasia/ chronic lung disease.</title>
+    <editor>In T. L. Gomella, F. G. Eyal, &amp; F. Bany-Mohammed (Eds.),</editor>
+    <container-title>Gomella�s neonatology: Management, procedures, on-call problems, diseases, and drugs</container-title>
+    <edition>(8th ed.,</edition>
+    <pages>pp. 826�833).</pages>
+    <publisher>McGraw-Hill Education.</publisher>
+  </sequence>
+  <sequence>
+    <author>R. Baral, S. Iyengar and A. Madni,</author>
+    <title>�Interdependent networks from societal perspective: MITS (multicontext influence tracking on social network),� in Sustainable Interdependent Networks,</title>
+    <edition>2nd eds.,</edition>
+    <location>Cham, Switzerland:</location>
+    <publisher>Springer,</publisher>
+    <pages>pp. 1�22,</pages>
+    <date>2019.</date>
+  </sequence>
+  <sequence>
+    <author>Shapiro, E.</author>
+    <date>(2009).</date>
+    <title>The four elements exercise in eye movement desensitization and reprocessing (EMDR) scripted protocols: Basic and special populations.</title>
+    <publisher>Springer.</publisher>
+  </sequence>
+  <sequence>
+    <editor>Rimer, B. K., &amp; Glanz, K. (Eds.).</editor>
+    <date>(2005).</date>
+    <title>Theory at a glance: A guide for health promotion practice</title>
+    <edition>(2nd ed.).</edition>
+    <publisher>National Institutes of Health.</publisher>
+  </sequence>
+  <sequence>
+    <author>Taketomo, C., Hodding, J., &amp; Kraus, D.</author>
+    <date>(2021).</date>
+    <title>Lexicomp pediatric &amp; neonatal dosage handbook</title>
+    <edition>(28th ed.).</edition>
+    <publisher>Wolters Kluwer.</publisher>
+  </sequence>
+  <sequence>
+    <author>Hepworth, D. H., Rooney, R. H., Rooney, G. D., &amp; Strom-Gottfried, K.</author>
+    <date>(2017).</date>
+    <title>Direct social work practice: Theory and skills</title>
+    <edition>(10th ed.).</edition>
+    <location>Cengage</location>
+  </sequence>
+  <sequence>
+    <title>AAA Committee to Prepare a Statement of Basic Accounting Theory</title>
+    <date>(1966).</date>
+    <title>A Statement of Basic Accounting Theory.</title>
+    <location>Evanston, Illinois:</location>
+    <publisher>American Accounting Association.</publisher>
+  </sequence>
+  <sequence>
+    <author>Flora, C.J. &amp; Fairbanks, E.</author>
+    <date>(1977)</date>
+    <title>The Sound and the Sea: A Guide to Northwestern Neritic Invertebrate Zoology.</title>
+    <publisher>The Washington State Department of Printing,</publisher>
+    <location>Olympia,</location>
+    <publisher>Washington,</publisher>
+    <pages>476 pp.</pages>
+  </sequence>
+  <sequence>
+    <author>Rogers, E. M.</author>
+    <date>(2003).</date>
+    <title>Diffusions of innovations</title>
+    <edition>(5th ed.).</edition>
+    <publisher>Simon &amp; Schuster.</publisher>
+  </sequence>
+  <sequence>
+    <author>Polit, D. G., &amp; Beck, C. T.</author>
+    <date>(2021).</date>
+    <title>Nursing research: Generating and assessing evidence for nursing practice</title>
+    <edition>(11th ed.).</edition>
+    <publisher>Wolters Kluwer.</publisher>
+  </sequence>
+  <sequence>
+    <author>Newhouse, R. P., Dearholt, S. L., Poe, S. S., Pugh, L. C., &amp; White, K. M.</author>
+    <date>(2007).</date>
+    <title>Johns Hopkins guidelines to evidence based practice: Models &amp; guidelines.</title>
+    <location>Indianapolis, IN:</location>
+    <publisher>Sigma Theta Tau International.</publisher>
+  </sequence>
+  <sequence>
+    <author>Han, Y. J.</author>
+    <date>(2015).</date>
+    <title>Study on the low-cost preparation and performance of high strength graphite matrix composites.</title>
+    <publisher>University of Science and Technology Beijing,</publisher>
+    <location>Beijing, China.</location>
+  </sequence>
+  <sequence>
+    <author>Gellermann, M.P.</author>
+    <date>(1926)</date>
+    <title>Medusae of the San Juan Archipelago.</title>
+    <genre>M.S. Thesis,</genre>
+    <publisher>University of Washington, Seattle,</publisher>
+    <pages>100 pp. and 37 plates.</pages>
+  </sequence>
+  <sequence>
+    <author>Abayu B.</author>
+    <date>2012.</date>
+    <title>Agronomic and economic effects of blended fertilizers under planting method on yield and yield components of Tef in Wereda Laelay aychew,</title>
+    <location>Central Tigray, Ethiopia.</location>
+    <note>Unpublished M.Sc. thesis, College of Dry Land Agriculture Natural Resources, Mekelle University, Mekelle, thiopia.</note>
+  </sequence>
+  <sequence>
+    <author>Harvey, K.</author>
+    <date>(1992).</date>
+    <title>�Managing the exploitation of intellectual property: An analysis of policy and practice in nine UK universities�.</title>
+    <note>Doctor of Philosophy thesis at the University of Stirling, UK.</note>
+  </sequence>
+  <sequence>
+    <author>Ye, M.</author>
+    <date>(2009).</date>
+    <title>�The economics of auditing standards�.</title>
+    <location>Vancouver :</location>
+    <publisher>University of British Columbia Library,</publisher>
+    <genre>PhD Thesis. url:</genre>
+    <url>http://hdl.handle.net/2429/10176.</url>
+  </sequence>
+  <sequence>
+    <author>Z. Chen,</author>
+    <title>�Deep-learning approaches to object recognition from3Ddata,�M.S.Dissertation.</title>
+    <publisher>CaseWestern Reserve University,</publisher>
+    <location>Cleveland, Ohio, USA,</location>
+    <date>2017.</date>
+  </sequence>
+  <sequence>
+    <author>S. E. Odeh Al-Awaida,</author>
+    <title>�Automated Arabic essay grading systembased on support vectormachine and text similarity algorithm,� M.S.</title>
+    <publisher>Dissertation, Middle East University,</publisher>
+    <location>Jordan,</location>
+    <date>2019.</date>
+  </sequence>
+  <sequence>
+    <title>Anonymous and undated, but probably about 2001,</title>
+    <journal>Docket</journal>
+    <volume>No. 72-26.</volume>
+    <location>Diablo Canyon:</location>
+    <publisher>Independent Spent Fuel Storage Installation, Environmental Report,</publisher>
+    <pages>202 pp.</pages>
+    <note>Available at</note>
+    <url>https://www.nrc.gov/docs/ML0201/ML020180196.pdf.</url>
+  </sequence>
+  <sequence>
+    <author>Karltun E, Mamo T, Bekele T, Gameda S, Kidanu S.</author>
+    <date>2013.</date>
+    <title>Towards improved fertilizer recommendations in Ethiopia � nutrient indices for ategorization of fertilizer blends from EthioSIS woreda soil inventory data: a Discussion paper,</title>
+    <publisher>Addis Ababa,</publisher>
+    <location>Ethiopia.</location>
+  </sequence>
+  <sequence>
+    <author>OECD.</author>
+    <date>2023.</date>
+    <title>Emerging privacy-enhancing technologies: current regulatory and policy approaches.</title>
+    <journal>OECD Digital Economy Papers,</journal>
+    <volume>No. 351,</volume>
+    <publisher>OECD Publishing,</publisher>
+    <location>Paris.</location>
+    <note>Available at</note>
+    <url>https://doi.org/10.1787/bf121be4-en.</url>
+  </sequence>
+  <sequence>
+    <author>Raei, F. and S. Cakir.</author>
+    <date>2007.</date>
+    <title>Sukuk vs.</title>
+    <container-title>Eurobonds: Is There a Difference in Value-at-Risk?</container-title>
+    <volume>No. 7-237.</volume>
+    <publisher>Working Paper. International Monetary Fund.</publisher>
+  </sequence>
+  <sequence>
+    <author>Patterson, E. R., J. R. Smith, and S. L. Tiras</author>
+    <date>(2023).</date>
+    <title>�The effects and potential benefits of audit committee oversight in a strategic setting�.</title>
+    <genre>Working Paper,</genre>
+    <publisher>University of Indiana.</publisher>
+  </sequence>
+  <sequence>
+    <author>Nan, L., C. Tang, and M. Ye</author>
+    <date>(2023).</date>
+    <title>�Auditing with a chance of whistleblowing�.</title>
+    <genre>Working Paper,</genre>
+    <publisher>Purdue University, HKUST, University of Toronto.</publisher>
+    <doi>doi: 10.2139/ssrn.4052083.</doi>
+  </sequence>
+  <sequence>
+    <author>Bochkovskiy, C. Y. Wang and H. Y. M. Liao,</author>
+    <title>""YOLOv4: optimal speed and accuracy of object detection,""</title>
+    <note>arXiv preprint arXiv:2004.10934,</note>
+    <date>2020</date>
+  </sequence>
+  <sequence>
+    <author>Sreedharan A., Sridevi K. and Wster S.,</author>
+    <journal>arXiv:</journal>
+    <volume>2202.06120</volume>
+    <date>(2022).</date>
+  </sequence>
+  <sequence>
+    <author>Hoff da Silva J. M., Bueno Rogerio R. J. and Quinquiolo N. C. R.,</author>
+    <title>Spinorial discrete symmetries and adjoint structures,</title>
+    <url>arXiv:2203.0206.</url>
+  </sequence>
+  <sequence>
+    <author>Blanco-Justicia A, Sanchez D, Domingo-Ferrer J, Muralidhar K.</author>
+    <date>2022.</date>
+    <title>A critical review on the use (and misuse) of differential privacy in machine learning.</title>
+    <edition>ArXiv preprint.</edition>
+    <doi>DOI 10.48550/arXiv.2206.04621.</doi>
+  </sequence>
+  <sequence>
+    <author>Ullah, S., P. Khan, N. Ullah, S. Saleem, H. Higgins, and K. S. Kwak</author>
+    <date>(2010).</date>
+    <title>�A review of wireless body area networks for medical applications�.</title>
+    <note>Preprint arXiv:1001.0831.</note>
+  </sequence>
+  <sequence>
+    <author>G. Li, M. Ye, and S. Hu,</author>
+    <note>abs+ polar codes: Exploiting more linear transforms on adjacent bits, arXiv:2209.02461,</note>
+    <date>2022.</date>
+  </sequence>
+  <sequence>
+    <author>R. A. Stoica and G. Abreu,</author>
+    <title>�6G: The wireless communications network for collaborative and AI</title>
+    <note>applications,� arXiv preprint, arXiv:1904.03413,</note>
+    <date>2019.</date>
+  </sequence>
+  <sequence>
+    <author>A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang et al.,</author>
+    <title>�Mobilenets: Efficient convolutional neural networks for mobile vision applications,�</title>
+    <journal>ArXiv,</journal>
+    <volume>vol. abs/1704.04861,</volume>
+    <date>2017.</date>
+    <url>http://arxiv.org/abs/1704.04861</url>
+  </sequence>
+  <sequence>
+    <author>H. M. K. K. M. B. Herath, G. M. K. B. Karunasena, H. D. N. S. Priyankara and B. G. D. A. Madhusanka,</author>
+    <title>�High-performance cardiovascular medicine: Artificial intelligence for coronary artery disease,� PREPRINT</title>
+    <date>(Version 1), 2021.</date>
+    <note>[Online]. Available:</note>
+    <url>https://doi.org/10.21203/rs.3.rs-642228/v1</url>
+  </sequence>
+  <sequence>
+    <author>N. Islam, Z. Islam and N. Noor,</author>
+    <title>�A survey on optical character recognition system,�</title>
+    <note>Arxiv Preprint, arXiv:1710.05703,</note>
+    <date>2017.</date>
+  </sequence>
+</dataset>

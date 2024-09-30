@@ -74,7 +74,7 @@ def ask_google(reference):
         try:
             generation_config=genai.types.GenerationConfig(temperature=0)
             model = genai.GenerativeModel('gemini-pro', generation_config=generation_config)
-            prompt = f"""Parse the below references text in detailed citation style JSON mentioned in https://github.com/citation-style-language/schema/blob/master/schemas/input/csl-data.json and also search for DOI in google and add key "doi_url" in the result wherever applicable and give result in JSON Format.
+            prompt = f"""Parse the below references text in detailed csl-JSON format and also search for DOI in google and add key "doi_url" in the result wherever applicable and give result in JSON Format.
             {reference}
             """
             response = model.generate_content(prompt)
@@ -93,7 +93,7 @@ def ask_crossref(reference):
     if response.status_code == 200:
         metadata = json.loads(response.text)
         if metadata["message"]["items"][0]["score"] > 100:
-            return metadata["message"]["items"][0]["DOI"]
+            return "http://doi.org/" + metadata["message"]["items"][0]["DOI"]
     return False
 
 def ask_duckduckgo(reference):
@@ -127,10 +127,11 @@ def worker(work_queue, lock, output_queue):
     while True:
         # Acquire lock before accessing the queue
         lock.acquire()
-        if not work_queue:
+        if not work_queue or len(work_queue) == 0:
             # Queue is empty, break the loop
             lock.release()
             break
+        print(type(work_queue))
         # Get the next work item from the queue
         work_item = work_queue.pop(0)
         lock.release()
@@ -140,12 +141,12 @@ def worker(work_queue, lock, output_queue):
         output_queue.put(output)
 
 def process_reference(reference):
-    res = {"id": reference.id}
-    doi_metadata = get_doi_metadata(reference.reference)
+    res = {"id": reference["id"]}
+    doi_metadata = get_doi_metadata(reference["reference"])
     if doi_metadata:
         res["doi_metadata"] = doi_metadata
     else:
-        parsed = ask_google(reference.reference)
+        parsed = ask_google(reference["reference"])
         res["parsed"] = parsed
         res["doi_metadata"] = False
     return res
@@ -179,16 +180,18 @@ def process_requests(references):
     return output
 
 @app.post("/")
-def read_root(references: Item):
-    return process_requests(references.references)
+def read_root(inp: Item):
+    return process_requests(inp.references)
     
 
-# # Testing....
-# references = open("References copy.txt", "r").readlines()
-# inp = []
-# for reference in references:
-#    inp.append({"id": "test", "reference": reference})
+# Testing....
+references = open("References copy.txt", "r").readlines()
+inp = []
+for reference in references:
+   inp.append({"id": "TEST", "reference": reference})
 
 # print(inp)
-# process_requests(inp)
+res = process_requests(inp)
+print(res)
+# process_requests({"references": inp})
 # doi_metadata_api("https://doi.org/10.1016/j.apenergy.2016.01.070")
