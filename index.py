@@ -5,8 +5,8 @@ import time
 import requests
 import json
 import google.generativeai as genai
-from pydantic import BaseModel
-genai.configure(api_key="AIzaSyBKH9iA9eWrjyejtdOdTCVXN32iqEQajz0")
+from pydantic import BaseModel     #AIzaSyCHmvQi4G7jWTWy6ojYCt67lIxPt36w-Mo
+genai.configure(api_key="AIzaSyDwVIc-eIlO-AJyuhxz8Pgl3TFMyBGokDw")
 from fastapi import FastAPI
 from typing import List, Union
 from threading import Thread, Lock
@@ -22,7 +22,7 @@ def debug(message):
         print(message)
 
 def doi_metadata_api(doi_url):
-    print(doi_url)
+    # print(doi_url)
     try:
         url = doi_url
         headers = {
@@ -146,9 +146,11 @@ def process_reference(reference):
     if doi_metadata:
         res["doi_metadata"] = doi_metadata
     else:
+        debug("DOI Found in Google")
         parsed = ask_google(reference["reference"])
         res["parsed"] = parsed
         res["doi_metadata"] = False
+        res["style"] = reference["style"]
     return res
 
 def process_requests(references):
@@ -183,12 +185,14 @@ def process_requests(references):
 def read_root(inp: Item):
     return process_requests(inp.references)
     
-
+from dd import id, xml_text, style
 # Testing....
-references = open("References copy.txt", "r").readlines()
+references = [xml_text]        #open("References copy.txt", "r").readlines()
+# print(references)
+# print(type(references))
 inp = []
 for reference in references:
-   inp.append({"id": "TEST", "reference": reference})
+   inp.append({"id": id, "reference": reference, "style": style})
 
 # print(inp)
 res = process_requests(inp)

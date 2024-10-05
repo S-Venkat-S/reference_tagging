@@ -1,0 +1,68 @@
+[
+  {
+    "mixed-citation": {
+      "value": "",
+      "attributes": [{ "publication-type": { "value": "journal" } }],
+      "child": [
+        {
+          "person-group": {
+            "value": "",
+            "attributes": [{ "person-group-type": { "value": "author" } }],
+            "child": [
+              {
+                "sur-name": {
+                  "value": "author[0].\"family\""
+                }
+              },
+              {
+                "given-name": {
+                  "value": "author[0].\"given\""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "article-title": {
+            "value": "title"
+          }
+        },
+        {
+          "source": {
+            "value": "container-title"
+          }
+        },
+        {
+          "volume": {
+            "value": "volume"
+          }
+        },
+        {
+          "fpage": {
+            "value": "page"
+          }
+        },
+        {
+          "lpage": {
+            "value": "page"
+          }
+        },
+        {
+          "year": {
+            "value": "issued.\"date-parts\"[0][0]"
+          }
+        },
+        {
+          "pub-id": {
+            "value": "DOI",
+            "attributes": [
+              { "ext_type": { "value": "uri" } },
+              { "break": { "value": "Y" } },
+              { "xlink_href": { "value": "URL" } }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
