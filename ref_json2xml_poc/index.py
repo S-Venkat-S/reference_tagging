@@ -2,47 +2,73 @@ from configparser import ConfigParser
 from bs4 import BeautifulSoup
 import json
 import jmespath
-ieee_config = json.load(open("config_ieee.json"))
-csl_json = json.load(open("inp.json"))
+# ieee_config = json.load(open("config_ieee.json"))
+# csl_json = json.load(open("inp.json"))
 
-def func(k):
-    xml_tag = list(k.keys())[0]
-    mix = soup.new_tag(xml_tag)
-    if "child" in k[xml_tag]:
-        for child_item in k[xml_tag]["child"]:
-            child_tag = func(child_item)
-            mix.append(child_tag)
+def Add_tag(res, style):
+    file = "styles_json/config_" + style + ".json"
+    # print(file)
+    ieee_config = json.load(open(file))
+    doi = res[0]["doi_metadata"]
 
-        # Set value if "value" exists
-    if "value" in k[xml_tag]:
-        csl_value = k[xml_tag]["value"]
-        if csl_value:
-            if "." in csl_value or "[" in csl_value:  # For jmespath expressions
-                xml_text = jmespath.search(csl_value, csl_json)
-                mix.string = str(xml_text)
-            else:
-                xml_text = csl_json.get(csl_value)
-                mix.string = xml_text
-
-    # Add attributes if present
-    if "attributes" in k[xml_tag]:
-        for attribute in k[xml_tag]["attributes"]:
-            for attr_key, attr_value in attribute.items():
-                mix[attr_key] = attr_value["value"]
-                if attr_value["value"] == "URL":
-                    mix[attr_key] = csl_json[attr_value["value"]]
+    if doi:
+        ref = res[0]["doi_metadata"]
+    else:
+        ref = res[0]["parsed"]
     
-    return mix
-        # for i in xml_csl:
-            
-            # print(i,"---")
-            # if i == "child":
-            #     func(xml_csl)
-soup = BeautifulSoup(features='xml')
-for k in ieee_config:
-    root_tag = func(k)
-    soup.append(root_tag)
-print(soup.prettify())
+    # print(ref,"---")
+    csl_json = ref
+    def func(k):
+        xml_tag = list(k.keys())[0]
+        mix = soup.new_tag(xml_tag)
+        if "child" in k[xml_tag]:
+            for child_item in k[xml_tag]["child"]:
+                child_tag = func(child_item)
+                if child_tag:
+                    mix.append(child_tag)
+
+            # Set value if "value" exists
+        if "value" in k[xml_tag]:
+            csl_value = k[xml_tag]["value"]
+            if csl_value:
+                if "." in csl_value or "[" in csl_value:  # For jmespath expressions
+                    xml_text = jmespath.search(csl_value, csl_json)
+                    if xml_text is not None:
+                        mix.string = str(xml_text)
+
+                else:
+                    xml_text = csl_json.get(csl_value)
+                    if xml_text is not None:
+                        mix.string = str(xml_text)
+
+        # Add attributes if present
+        if "attributes" in k[xml_tag]:
+            for attribute in k[xml_tag]["attributes"]:
+                for attr_key, attr_value in attribute.items():
+                    # print(attr_value["value"])
+                    if attr_value["value"] == "URL":
+                        if attr_value["value"] in csl_json:
+                            mix[attr_key] = csl_json.get(attr_value["value"])
+                    else:
+                        mix[attr_key] = attr_value["value"]
+        
+        if mix.string or mix.contents:
+            return mix
+        else:
+            return None  
+
+    soup = BeautifulSoup(features='xml')
+    for k in ieee_config:
+        root_tag = func(k)
+        if root_tag:
+            soup.append(root_tag)
+
+    print(soup.prettify())
+    # texted = ["<volume>", "<issue>", "<fpage>", ""]
+    # sp = str(soup).split("<volume>")
+    # change_ref = sp[0] + ", vol. <volume>" + sp[1]
+    # print(change_ref)
+    return str(soup)
         # tag = list(i.keys())[0]
         # # print(tag)
         # label = soup.new_tag(tag)

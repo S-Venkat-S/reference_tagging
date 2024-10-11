@@ -13,7 +13,10 @@ from threading import Thread, Lock
 from queue import Queue
 import time
 import random
+import calendar
+import index
 
+# def TSP_ref(id, xml_text, style):
 app = FastAPI()
 DEBUG = True
 
@@ -118,6 +121,7 @@ def get_doi_metadata(reference):
 class Reference(BaseModel):
     id: str
     reference: str
+    style: str
 
 class Item(BaseModel):
     references: List[Reference]
@@ -131,7 +135,7 @@ def worker(work_queue, lock, output_queue):
             # Queue is empty, break the loop
             lock.release()
             break
-        print(type(work_queue))
+        # print(type(work_queue))
         # Get the next work item from the queue
         work_item = work_queue.pop(0)
         lock.release()
@@ -141,16 +145,16 @@ def worker(work_queue, lock, output_queue):
         output_queue.put(output)
 
 def process_reference(reference):
-    res = {"id": reference["id"]}
-    doi_metadata = get_doi_metadata(reference["reference"])
+    res = {"id": reference.id}
+    doi_metadata = get_doi_metadata(reference.reference)
     if doi_metadata:
         res["doi_metadata"] = doi_metadata
     else:
         debug("DOI Found in Google")
-        parsed = ask_google(reference["reference"])
+        parsed = ask_google(reference.reference)
         res["parsed"] = parsed
         res["doi_metadata"] = False
-        res["style"] = reference["style"]
+        # res["style"] = reference["style"]
     return res
 
 def process_requests(references):
@@ -161,7 +165,7 @@ def process_requests(references):
     output_queue = Queue()
 
     # Define the number of threads
-    num_threads = 1
+    num_threads = 4
 
     # Create and start worker threads
     threads = []
@@ -175,28 +179,82 @@ def process_requests(references):
         thread.join()
 
     # Print the collected results from the output queue
-    print("All work completed. Results:")
+    # print("All work completed. Results:")
     output = []
     while not output_queue.empty():
         output.append(output_queue.get())
     return output
 
+def preprocess(res):
+    
+    if not res:
+        return ""
+    doi = res[0]["doi_metadata"]
+
+    if doi:
+        ref = res[0]["doi_metadata"]
+    else:
+        ref = res[0]["parsed"]
+
+    page_value = ref.get("page") or ref.get("first-page")
+    # print(page_value)
+    #Separate the page number and add first, last tag
+    if page_value:
+        if "-" in page_value:
+            split_page = ref["page"].split("-")
+            ref["fpage"] = split_page[0]
+            ref["lpage"] = split_page[1]
+        else:
+            ref["fpage"] = page_value
+
+    try:
+        #Change the dates
+        issued = (ref["issued"])
+    except:
+        issued = ""
+    # print(issued)
+    if issued:
+        for d_name in issued:
+            if d_name=="date-parts":
+                date = issued[d_name][0]
+            else:
+                date = []
+                date.append(issued[d_name])
+        # print(date,"---")
+        # print(len(date))    
+        if len(date)>1:
+            dates = calendar.month_name[date[1]]
+            da = str(date[0]) + " ," + dates[:3] + "."
+            
+            ref["dates"] = str(da)
+        elif date:
+            # print(date)
+            ref["dates"] = date[0]
+    # print(res[0]["doi_metadata"]["dates"])
+
+    return index.Add_tag(res, "ieee")
+
 @app.post("/")
 def read_root(inp: Item):
-    return process_requests(inp.references)
+    # print(inp)
+    return preprocess(process_requests(inp.references))
     
-# from dd import id, xml_text, style
-# # Testing....
-# references = [xml_text]        #open("References copy.txt", "r").readlines()
-references = open("References copy.txt", "r").readlines()
-# print(references)
-# print(type(references))
-inp = []
-for reference in references:
-   inp.append({"id": id, "reference": reference, "style": "pol"})
+# Testing....
+# references = open("References copy.txt", "r").readlines() #[xml_text] 
+# # print(references)
+# # print(type(references))
+# inp = []
+# for reference in references:
+#     inp.append({"id": id, "reference": reference})
 
-# print(inp)
-res = process_requests(inp)
-print(res)
-# process_requests({"references": inp})
-# doi_metadata_api("https://doi.org/10.1016/j.apenergy.2016.01.070")
+# # print(inp)
+# res = process_requests(inp)
+# print(res)
+
+# return preprocess(res)
+    
+    # process_requests({"references": inp})
+    # doi_metadata_api("https://doi.org/10.1016/j.apenergy.2016.01.070")
+
+
+# TSP_ref("1", "Fontana, R. J. (2008). Acute liver failure including acetaminophen overdose. The Medical Clinics of North America, 92(4), 761�794. doi:10.1016/j.mcna.2008.03.005", "ieee")

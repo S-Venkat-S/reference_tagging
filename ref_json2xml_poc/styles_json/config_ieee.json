@@ -39,12 +39,17 @@
         },
         {
           "fpage": {
-            "value": "page"
+            "value": "fpage"
           }
         },
         {
           "lpage": {
-            "value": "page"
+            "value": "lpage"
+          }
+        },
+        {
+          "issue": {
+            "value": "issue"
           }
         },
         {
