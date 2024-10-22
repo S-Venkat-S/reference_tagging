@@ -209,7 +209,7 @@ def preprocess(res):
 
     #Separate the page number and add first, last tag
     if page_value:
-        split_page = page_value.replace("–", "-").split("-") 
+        split_page = page_value.replace("–", "-").replace("--", "-").split("-")
         if len(split_page) > 1:
             ref["fpage"], ref["lpage"] = split_page
         else:
