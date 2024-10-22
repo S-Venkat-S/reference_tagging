@@ -10,13 +10,20 @@
             "attributes": [{ "person-group-type": { "value": "author" } }],
             "child": [
               {
-                "sur-name": {
-                  "value": "author[0].\"family\""
-                }
-              },
-              {
-                "given-name": {
-                  "value": "author[0].\"given\""
+                "string-name": {
+                  "value": "",
+                  "child": [
+                    {
+                      "sur-name": {
+                        "value": "author[0].\"family\""
+                      }
+                    },
+                    {
+                      "given-name": {
+                        "value": "author[0].\"given\""
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -30,6 +37,11 @@
         {
           "source": {
             "value": "container-title"
+          }
+        },
+        {
+          "publisher-name": {
+            "value": "publisher"
           }
         },
         {
@@ -54,7 +66,7 @@
         },
         {
           "year": {
-            "value": "issued.\"date-parts\"[0][0]"
+            "value": "year"
           }
         },
         {

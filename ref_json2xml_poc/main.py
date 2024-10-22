@@ -83,6 +83,8 @@ def ask_google(reference):
             response = model.generate_content(prompt)
             response = response.text.replace('```JSON', '')
             return json.loads(response.replace('`', ''))
+        except json.JSONDecodeError as decode_err:
+            print(decode_err)
         except Exception as e:
             print(e)
             print(response.text) if response else ''
@@ -152,6 +154,7 @@ def process_reference(reference):
     else:
         debug("DOI Found in Google")
         parsed = ask_google(reference.reference)
+        # print(parsed)
         res["parsed"] = parsed
         res["doi_metadata"] = False
         # res["style"] = reference["style"]
@@ -183,10 +186,11 @@ def process_requests(references):
     output = []
     while not output_queue.empty():
         output.append(output_queue.get())
+    # print(output)
     return output
 
 def preprocess(res):
-    
+    print(res)
     if not res:
         return ""
     doi = res[0]["doi_metadata"]
@@ -195,43 +199,37 @@ def preprocess(res):
         ref = res[0]["doi_metadata"]
     else:
         ref = res[0]["parsed"]
+    
+    if not ref:
+        return ""
+    
+    page_value = ref.get("page") or ref.get("first-page") or ref.get("fpage")
+    f_page = ref.get("page-first")
+    l_page = ref.get("page-last")
 
-    page_value = ref.get("page") or ref.get("first-page")
-    # print(page_value)
     #Separate the page number and add first, last tag
     if page_value:
-        if "-" in page_value:
-            split_page = ref["page"].split("-")
-            ref["fpage"] = split_page[0]
-            ref["lpage"] = split_page[1]
+        split_page = page_value.replace("–", "-").split("-") 
+        if len(split_page) > 1:
+            ref["fpage"], ref["lpage"] = split_page
         else:
             ref["fpage"] = page_value
+    if f_page:
+        ref["fpage"] = f_page
+    if l_page:
+        ref["lpage"] = l_page
 
-    try:
-        #Change the dates
-        issued = (ref["issued"])
-    except:
-        issued = ""
-    # print(issued)
-    if issued:
-        for d_name in issued:
-            if d_name=="date-parts":
-                date = issued[d_name][0]
-            else:
-                date = []
-                date.append(issued[d_name])
-        # print(date,"---")
-        # print(len(date))    
-        if len(date)>1:
-            dates = calendar.month_name[date[1]]
-            da = str(date[0]) + " ," + dates[:3] + "."
-            
-            ref["dates"] = str(da)
-        elif date:
-            # print(date)
-            ref["dates"] = date[0]
-    # print(res[0]["doi_metadata"]["dates"])
-
+    issued = ref.get("issued", {})
+    date_parts = issued.get("date-parts", [])
+    if date_parts:
+        year = str(date_parts[0][0])
+        if len(date_parts[0]) > 1:
+            month_name = calendar.month_name[date_parts[0][1]][:3]
+            ref["year"] = f"{year}, {month_name}."
+        else:
+            ref["year"] = year
+    
+    print(res)
     return index.Add_tag(res, "ieee")
 
 @app.post("/")
@@ -240,15 +238,15 @@ def read_root(inp: Item):
     return preprocess(process_requests(inp.references))
     
 # Testing....
-# references = open("References copy.txt", "r").readlines() #[xml_text] 
+references = open("References copy.txt", "r").readlines() #[xml_text] 
 # # print(references)
 # # print(type(references))
-# inp = []
-# for reference in references:
-#     inp.append({"id": id, "reference": reference})
+inp = []
+for reference in references:
+    inp.append({"id": id, "reference": reference})
 
-# # print(inp)
-# res = process_requests(inp)
+# print(inp)
+res = preprocess(process_requests(inp))
 # print(res)
 
 # return preprocess(res)
