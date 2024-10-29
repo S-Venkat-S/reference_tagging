@@ -34,7 +34,7 @@ def doi_metadata_api(doi_url):
         }
 
         response = requests.get(url, headers=headers, timeout=10)
-        print(response)
+
         if response.status_code == 200:
             metadata = json.loads(response.text)
             metadata["user_doi"] = doi_url
@@ -190,7 +190,7 @@ def process_requests(references):
     return output
 
 def preprocess(res):
-    print(res)
+    # print(res)
     if not res:
         return ""
     doi = res[0]["doi_metadata"]
