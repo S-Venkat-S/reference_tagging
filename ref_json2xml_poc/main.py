@@ -82,11 +82,14 @@ def ask_google(reference):
             """
             response = model.generate_content(prompt)
             response = response.text.replace('```JSON', '')
+            # json_objects = re.findall(r'```.*?```', response, re.DOTALL)
+            # print(json_objects[0],"--------------")
             return json.loads(response.replace('`', ''))
         except json.JSONDecodeError as decode_err:
-            print(decode_err)
+            print("Error in decoder.", decode_err)
+            continue
         except Exception as e:
-            print(e)
+            print("Exception ", e)
             print(response.text) if response else ''
             continue
     return False
@@ -193,12 +196,12 @@ def preprocess(res):
     # print(res)
     if not res:
         return ""
-    doi = res[0]["doi_metadata"]
+    doi = res["doi_metadata"]
 
     if doi:
-        ref = res[0]["doi_metadata"]
+        ref = res["doi_metadata"]
     else:
-        ref = res[0]["parsed"]
+        ref = res["parsed"]
     
     if not ref:
         return ""
@@ -209,7 +212,7 @@ def preprocess(res):
 
     #Separate the page number and add first, last tag
     if page_value:
-        split_page = page_value.replace("–", "-").replace("--", "-").split("-")
+        split_page = [part for part in page_value.replace("–", "-").replace("--", "-").split("-") if part.isdigit()]
         if len(split_page) > 1:
             ref["fpage"], ref["lpage"] = split_page
         else:
@@ -229,24 +232,32 @@ def preprocess(res):
         else:
             ref["year"] = year
     
-    print(res)
-    return index.Add_tag(res, "ieee")
+    # print(res)
+    return index.add_tag(res, "ieee")
 
 @app.post("/")
 def read_root(inp: Item):
     # print(inp)
-    return preprocess(process_requests(inp.references))
+    ress = process_requests(inp.references)
+    refe = []
+    for res in ress:
+        # print(res)
+        check_id = {}
+        check_id["id"] = res["id"]
+        check_id["value"] = preprocess(res)
+        refe.append(check_id)
+    return refe
     
-# Testing....
-references = open("References copy.txt", "r").readlines() #[xml_text] 
-# # print(references)
-# # print(type(references))
-inp = []
-for reference in references:
-    inp.append({"id": id, "reference": reference})
+# # Testing....
+# references = open("References copy.txt", "r").readlines() #[xml_text] 
+# # # print(references)
+# # # print(type(references))
+# inp = []
+# for reference in references:
+#     inp.append({"id": id, "reference": reference})
 
-# print(inp)
-res = preprocess(process_requests(inp))
+# # print(inp)
+# res = preprocess(process_requests(inp))
 # print(res)
 
 # return preprocess(res)

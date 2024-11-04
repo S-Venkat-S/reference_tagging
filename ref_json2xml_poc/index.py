@@ -5,16 +5,17 @@ import jmespath
 # ieee_config = json.load(open("config_ieee.json"))
 # csl_json = json.load(open("inp.json"))
 
-def Add_tag(res, style):
-    file = "styles_json/config_" + "ieee" + ".json"
+def add_tag(res, style="ieee"):
+    file = "styles_json/config_" + style + ".json"
     # print(file)
     ieee_config = json.load(open(file))
-    doi = res[0]["doi_metadata"]
+    # print(len(res))
+    doi = res["doi_metadata"]
 
     if doi:
-        ref = res[0]["doi_metadata"]
+        ref = res["doi_metadata"]
     else:
-        ref = res[0]["parsed"]
+        ref = res["parsed"]
 
     csl_json = ref
     def func(k, author_index=None):
@@ -53,15 +54,7 @@ def Add_tag(res, style):
                     if xml_text is not None:
                         # print(xml_text,"----")
                         sou = BeautifulSoup(xml_text, 'html.parser')
-                        # print(sou,"****")
-                        # for item in sou:
-                        #     # print(item,"????")
-                        #     mix.append(item)
-                        # for item in sou:
-                        #     if isinstance(item, str):  # If it's a string (text node)
-                        #         mix.append(item)
-                        #     else:  # If it's a tag, append it
-                        #         mix.append(item)
+                        
                         mix.append(BeautifulSoup(str(sou), 'html.parser'))
 
                         # print(mix,")))")
