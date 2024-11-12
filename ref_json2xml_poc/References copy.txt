@@ -1,1 +1,1 @@
-Z. Zhang, H. Jiang, S. Pang, and X. Hu, “Review and prospect in change detection of multi-temporal remote sensing images,” Acta Geod. Cartogr. Sin., vol. 51, no. 7, pp. 1091–1107, 2022.
+S. Zhao, M. Hu, Z. Cai, Z. Zhang, T. Zhou et al. ""Enhancing Chinese character representation with lattice-aligned attention"", IEEE Transactions on Neural Networks and Learning Systems, 2021, DOI: 10.1109/TNNLS.2021.3114378.

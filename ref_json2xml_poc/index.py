@@ -9,62 +9,56 @@ def add_tag(res, style="ieee"):
     file = "styles_json/config_" + style + ".json"
     # print(file)
     ieee_config = json.load(open(file))
-    # print(len(res))
-    doi = res["doi_metadata"]
+    # print((res))
+    csl_json = res["doi_metadata"] if res["doi_metadata"] else res["parsed"]
 
-    if doi:
-        ref = res["doi_metadata"]
-    else:
-        ref = res["parsed"]
-
-    csl_json = ref
-    def func(k, author_index=None):
+    def func(k, author_index = None):
         xml_tag = list(k.keys())[0]
         mix = soup.new_tag(xml_tag)
         if "child" in k[xml_tag]:
             for child_item in k[xml_tag]["child"]:
-                if xml_tag == "person-group":
-                    authors = csl_json.get("author", [])
-                    for i,author in enumerate(authors):
-                        child_tag = func(child_item, author_index=i)
-                        if child_tag:
-                            mix.append(child_tag)
-                else:
-                    child_tag = func(child_item, author_index=author_index)
+                child_tag = func(child_item, author_index = author_index)
+                if child_tag:
+                    mix.append(child_tag)
+
+        if "children" in k[xml_tag]:
+            for child_item in k[xml_tag]["children"]:
+                authors = csl_json.get("author", [])
+                for i,author in enumerate(authors):
+                    child_tag = func(child_item, author_index = i)
                     if child_tag:
                         mix.append(child_tag)
 
         #Set value if "value" exists
         if "value" in k[xml_tag]:
-            csl_value = k[xml_tag]["value"]
-            if csl_value:
-                if "." in csl_value or "[" in csl_value:  # For jmespath expressions
-                    if author_index is not None:
-                        csl_value = csl_value.replace("[0]", f"[{author_index}]")
-                    xml_text = jmespath.search(csl_value, csl_json)
-                    if xml_text is not None:
-                        # print(xml_text)
-                        mix.string = str(xml_text)
-                        # print(mix,"===")
 
-                else:
-                    if author_index is not None:
-                        csl_value = csl_value.replace("[0]", f"[{author_index}]")
-                    xml_text = csl_json.get(csl_value)
-                    if xml_text is not None:
-                        # print(xml_text,"----")
-                        sou = BeautifulSoup(xml_text, 'html.parser')
-                        
-                        mix.append(BeautifulSoup(str(sou), 'html.parser'))
+            csl_value = k[xml_tag]["value"].replace("[?]", f"[{author_index}]" if author_index is not None else "")
+            xml_text = jmespath.search(csl_value, csl_json) if "." in csl_value or "[" in csl_value else csl_json.get(csl_value)
+            if xml_text:
+                mix.string = str(xml_text) if not isinstance(xml_text, BeautifulSoup) else xml_text
+                
+            # csl_value = k[xml_tag]["value"]
+            # if csl_value:
+            #     if "." in csl_value or "[" in csl_value:  # For jmespath expressions
+            #         if author_index is not None:
+            #             csl_value = csl_value.replace("[?]", f"[{author_index}]")
+            #         xml_text = jmespath.search(csl_value, csl_json)
+            #         if xml_text is not None:
+            #             mix.string = str(xml_text)
 
-                        # print(mix,")))")
-                        # mix.string = str(xml_text)
+            #     else:
+            #         if author_index is not None:
+            #             csl_value = csl_value.replace("[?]", f"[{author_index}]")
+            #         xml_text = csl_json.get(csl_value)
+            #         if xml_text is not None:
+            #             sou = BeautifulSoup(xml_text, 'html.parser')
+            #             mix.append(BeautifulSoup(str(sou), 'html.parser'))
 
         #Add attributes if present
         if "attributes" in k[xml_tag]:
             for attribute in k[xml_tag]["attributes"]:
                 for attr_key, attr_value in attribute.items():
-                    if attr_value["value"] == "URL":
+                    if attr_value["value"] == "URL" or attr_value["value"] == "doi_url":
                         if attr_value["value"] in csl_json:
                             mix[attr_key] = csl_json.get(attr_value["value"])
                     else:
@@ -103,5 +97,5 @@ def add_tag(res, style="ieee"):
     # sou = BeautifulSoup(soup_str, "xml")
     # print(sou.prettify())
     return str(soup)
-# res = [{'parsed': {'type': 'book', 'title': 'The Pocket Guide to Neurocritical Care: A concise reference for the evaluation and management of neurologic emergencies', 'author': [{'family': 'Darsie', 'given': 'M. D.'}, {'family': 'Moheet', 'given': 'A. M.'}], 'issued': {'year': 2017}, 'publisher': 'Neurocritical Care Society', 'place': 'Chicago, IL'}, 'doi_metadata': False}]
-# Add_tag(res, "ieee")
+# res = {'parsed': {'type': 'book', 'title': 'The Pocket Guide to Neurocritical Care: A concise reference for the evaluation and management of neurologic emergencies', 'author': [{'family': 'Darsie', 'given': 'M. D.'}, {'family': 'Moheet', 'given': 'A. M.'}], 'issued': {'year': 2017}, 'publisher': 'Neurocritical Care Society', 'place': 'Chicago, IL'}, 'doi_metadata': False}
+# add_tag(res, "ieee")

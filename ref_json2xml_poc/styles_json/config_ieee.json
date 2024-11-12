@@ -8,19 +8,19 @@
           "person-group": {
             "value": "",
             "attributes": [{ "person-group-type": { "value": "author" } }],
-            "child": [
+            "children": [
               {
                 "string-name": {
                   "value": "",
                   "child": [
                     {
                       "sur-name": {
-                        "value": "author[0].\"family\""
+                        "value": "author[?].\"family\""
                       }
                     },
                     {
                       "given-name": {
-                        "value": "author[0].\"given\""
+                        "value": "author[?].\"given\""
                       }
                     }
                   ]
@@ -35,7 +35,7 @@
           }
         },
         {
-          "source": {
+          "source1": {
             "value": "container-title"
           }
         },
@@ -75,7 +75,8 @@
             "attributes": [
               { "ext_type": { "value": "uri" } },
               { "break": { "value": "Y" } },
-              { "xlink_href": { "value": "URL" } }
+              { "xlink_href": { "value": "URL" } },
+              { "xlink_href": { "value": "doi_url" } }
             ]
           }
         }

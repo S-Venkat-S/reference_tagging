@@ -6,7 +6,7 @@ import requests
 import json
 import google.generativeai as genai
 from pydantic import BaseModel     #AIzaSyCHmvQi4G7jWTWy6ojYCt67lIxPt36w-Mo
-genai.configure(api_key="AIzaSyDwVIc-eIlO-AJyuhxz8Pgl3TFMyBGokDw")
+genai.configure(api_key="AIzaSyD4WMOaLJdZ8lVB3vAUh80rWsavImtV1b4")
 from fastapi import FastAPI
 from typing import List, Union
 from threading import Thread, Lock
@@ -75,23 +75,33 @@ def find_doi_in_reference(reference):
 def ask_google(reference):
     for i in range(3):
         try:
+            time.sleep(1)
             generation_config=genai.types.GenerationConfig(temperature=0)
             model = genai.GenerativeModel('gemini-pro', generation_config=generation_config)
             prompt = f"""Parse the below references text in detailed csl-JSON format and also search for DOI in google and add key "doi_url" in the result wherever applicable and give result in JSON Format.
             {reference}
             """
             response = model.generate_content(prompt)
-            response = response.text.replace('```JSON', '')
-            # json_objects = re.findall(r'```.*?```', response, re.DOTALL)
-            # print(json_objects[0],"--------------")
+            print(response.text)
+            response = re.sub(r'```json', '', response.text, flags=re.IGNORECASE)
+            # response = response.text.replace('```JSON', '').replace('```json', '')
+            # print(response)
+            # response = response.replace("DOI could not be found for the given reference.", "").replace("DOI not found in the provided text.", "")
+            # response = re.findall(r'\`*\`*\`*.*?```', response, re.DOTALL)
+            # print(response[0],"--------------")
             return json.loads(response.replace('`', ''))
         except json.JSONDecodeError as decode_err:
             print("Error in decoder.", decode_err)
             continue
         except Exception as e:
-            print("Exception ", e)
-            print(response.text) if response else ''
-            continue
+            if "429" in str(e):
+                wait_time = 2 ** i  # Exponential backoff
+                print(f"Rate limit exceeded. Retrying in {wait_time} seconds...")
+                time.sleep(wait_time)
+            else:
+                print("Exception ", e)
+                # print(response) if response else ''
+                continue
     return False
 
 def ask_crossref(reference):
@@ -248,7 +258,7 @@ def read_root(inp: Item):
         refe.append(check_id)
     return refe
     
-# # Testing....
+# Testing....
 # references = open("References copy.txt", "r").readlines() #[xml_text] 
 # # # print(references)
 # # # print(type(references))
@@ -256,7 +266,15 @@ def read_root(inp: Item):
 # for reference in references:
 #     inp.append({"id": id, "reference": reference})
 
-# # print(inp)
+# ress = process_requests(inp)
+# refe = []
+# for res in ress:
+#     # print(res)
+#     check_id = {}
+#     check_id["id"] = res["id"]
+#     check_id["value"] = preprocess(res)
+#     refe.append(check_id)
+# print(refe)
 # res = preprocess(process_requests(inp))
 # print(res)
 
