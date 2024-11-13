@@ -247,7 +247,7 @@ def preprocess(res):
 
 @app.post("/")
 def read_root(inp: Item):
-    # print(inp)
+    print(inp)
     ress = process_requests(inp.references)
     refe = []
     for res in ress:
