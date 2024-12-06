@@ -41,8 +41,14 @@
   "volume": "179",
   "author": [
     {
-      "given": "Francesco",
-      "family": "Palmieri",
+      "given": "First",
+      "family": "Author",
+      "sequence": "first",
+      "affiliation": []
+    },
+    {
+      "given": "Second",
+      "family": "Author",
       "sequence": "first",
       "affiliation": []
     }

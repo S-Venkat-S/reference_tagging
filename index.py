@@ -183,20 +183,21 @@ def process_requests(references):
 
 @app.post("/")
 def read_root(inp: Item):
+    print(inp)
     return process_requests(inp.references)
     
 # from dd import id, xml_text, style
 # # Testing....
 # references = [xml_text]        #open("References copy.txt", "r").readlines()
-references = open("References copy.txt", "r").readlines()
-# print(references)
-# print(type(references))
-inp = []
-for reference in references:
-   inp.append({"id": id, "reference": reference, "style": "pol"})
+# references = open("References copy.txt", "r").readlines()
+# # print(references)
+# # print(type(references))
+# inp = []
+# for reference in references:
+#    inp.append({"id": id, "reference": reference, "style": "pol"})
 
-# print(inp)
-res = process_requests(inp)
-print(res)
+# # print(inp)
+# res = process_requests(inp)
+# print(res)
 # process_requests({"references": inp})
 # doi_metadata_api("https://doi.org/10.1016/j.apenergy.2016.01.070")
