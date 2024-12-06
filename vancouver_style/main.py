@@ -1,31 +1,32 @@
 # from googleapi import google
 # num_page = 3
+import index
+import calendar
+import random
+from queue import Queue
+from threading import Thread, Lock
+from typing import List, Union
+from fastapi import FastAPI
 import re
 import time
 import requests
 import json
 import google.generativeai as genai
-from pydantic import BaseModel     #AIzaSyCHmvQi4G7jWTWy6ojYCt67lIxPt36w-Mo
+from pydantic import BaseModel  # AIzaSyCHmvQi4G7jWTWy6ojYCt67lIxPt36w-Mo
 genai.configure(api_key="AIzaSyD4WMOaLJdZ8lVB3vAUh80rWsavImtV1b4")
-from fastapi import FastAPI
-from typing import List, Union
-from threading import Thread, Lock
-from queue import Queue
-import time
-import random
-import calendar
-import index
 
 # def TSP_ref(id, xml_text, style):
 app = FastAPI()
 DEBUG = True
 
+
 def debug(message):
     if DEBUG:
         print(message)
 
+
 def doi_metadata_api(doi_url):
-    # print(doi_url)
+
     try:
         url = doi_url
         headers = {
@@ -40,11 +41,13 @@ def doi_metadata_api(doi_url):
             metadata["user_doi"] = doi_url
             return metadata
         else:
-            print(f"Error retrieving DOI metadata for DOI {doi_url}: {response.status_code}")
+            print(
+                f"Error retrieving DOI metadata for DOI {doi_url}: {response.status_code}")
             return None
     except Exception as e:
         print(e)
         return False
+
 
 def clean_up_doi(doi):
     doi = doi.strip().lower()
@@ -60,6 +63,7 @@ def clean_up_doi(doi):
         doi = "https://"+doi
     return doi
 
+
 def find_doi_in_reference(reference):
     words = reference.split(" ")
     ref = None
@@ -72,23 +76,20 @@ def find_doi_in_reference(reference):
         return clean_up_doi(word)
     return False
 
+
 def ask_google(reference):
     for i in range(3):
         try:
             time.sleep(1)
-            generation_config=genai.types.GenerationConfig(temperature=0)
-            model = genai.GenerativeModel('gemini-pro', generation_config=generation_config)
+            generation_config = genai.types.GenerationConfig(temperature=0)
+            model = genai.GenerativeModel(
+                'gemini-pro', generation_config=generation_config)
             prompt = f"""Parse the below references text in detailed csl-JSON format and also search for DOI in google and add key "doi_url" in the result wherever applicable and give result in JSON Format.
             {reference}
             """
             response = model.generate_content(prompt)
-            # print(response.text)
-            response = re.sub(r'```json', '', response.text, flags=re.IGNORECASE)
-            # response = response.text.replace('```JSON', '').replace('```json', '')
-            # print(response)
-            # response = response.replace("DOI could not be found for the given reference.", "").replace("DOI not found in the provided text.", "")
-            # response = re.findall(r'\`*\`*\`*.*?```', response, re.DOTALL)
-            # print(response[0],"--------------")
+            response = re.sub(r'```json', '', response.text,
+                              flags=re.IGNORECASE)
             return json.loads(response.replace('`', ''))
         except json.JSONDecodeError as decode_err:
             print("Error in decoder.", decode_err)
@@ -96,13 +97,14 @@ def ask_google(reference):
         except Exception as e:
             if "429" in str(e):
                 wait_time = 2 ** i  # Exponential backoff
-                print(f"Rate limit exceeded. Retrying in {wait_time} seconds...")
+                print(
+                    f"Rate limit exceeded. Retrying in {wait_time} seconds...")
                 time.sleep(wait_time)
             else:
                 print("Exception ", e)
-                # print(response) if response else ''
                 continue
     return False
+
 
 def ask_crossref(reference):
     error_email = "vapt@transforma.in"
@@ -114,11 +116,13 @@ def ask_crossref(reference):
             return "http://doi.org/" + metadata["message"]["items"][0]["DOI"]
     return False
 
+
 def ask_duckduckgo(reference):
     from duckduckgo_search import DDGS
     with DDGS() as ddgs:
         for r in ddgs.text(f"{reference}", region='in-en', safesearch='off', max_results=3, backend='html'):
             print(r)
+
 
 def get_doi_metadata(reference):
     doi_in_reference = find_doi_in_reference(reference)
@@ -131,17 +135,19 @@ def get_doi_metadata(reference):
         return doi_metadata_api(cross_ref)
     return False
 
-# r = get_doi_metadata("https://dx.doi.org/10.3389/fpsyg.2017.01578")
-# print(json.dumps(r))
+
 class Reference(BaseModel):
     id: str
     reference: str
     style: str
 
+
 class Item(BaseModel):
     references: List[Reference]
 
 # Define the worker function for threads
+
+
 def worker(work_queue, lock, output_queue):
     while True:
         # Acquire lock before accessing the queue
@@ -150,7 +156,6 @@ def worker(work_queue, lock, output_queue):
             # Queue is empty, break the loop
             lock.release()
             break
-        # print(type(work_queue))
         # Get the next work item from the queue
         work_item = work_queue.pop(0)
         lock.release()
@@ -159,19 +164,19 @@ def worker(work_queue, lock, output_queue):
         # Place the output in the output queue
         output_queue.put(output)
 
+
 def process_reference(reference):
-    res = {"id": reference["id"]}
-    doi_metadata = get_doi_metadata(reference["reference"])
+    res = {"id": reference.id}
+    doi_metadata = get_doi_metadata(reference.reference)
     if doi_metadata:
         res["doi_metadata"] = doi_metadata
     else:
         debug("DOI Found in Google")
-        parsed = ask_google(reference["reference"])
-        # print(parsed)
+        parsed = ask_google(reference.reference)
         res["parsed"] = parsed
         res["doi_metadata"] = False
-        # res["style"] = reference["style"]
     return res
+
 
 def process_requests(references):
 
@@ -199,11 +204,12 @@ def process_requests(references):
     output = []
     while not output_queue.empty():
         output.append(output_queue.get())
-    # print(output)
+
     return output
 
+
 def preprocess(res):
-    # print(res)
+
     if not res:
         return ""
     doi = res["doi_metadata"]
@@ -212,17 +218,18 @@ def preprocess(res):
         ref = res["doi_metadata"]
     else:
         ref = res["parsed"]
-    
+
     if not ref:
         return ""
-    
+
     page_value = ref.get("page") or ref.get("first-page") or ref.get("fpage")
     f_page = ref.get("page-first")
     l_page = ref.get("page-last")
 
-    #Separate the page number and add first, last tag
+    # Separate the page number and add first, last tag
     if page_value:
-        split_page = [part for part in page_value.replace("–", "-").replace("--", "-").split("-") if part.isdigit()]
+        split_page = [part for part in page_value.replace(
+            "–", "-").replace("--", "-").split("-") if part.isdigit()]
         if len(split_page) > 1:
             ref["fpage"], ref["lpage"] = split_page
         else:
@@ -241,45 +248,41 @@ def preprocess(res):
             ref["year"] = f"{year}, {month_name}."
         else:
             ref["year"] = year
-    
-    # print(res)
-    return index.add_tag(res, "ieee")
+
+    return index.add_tag(res, "vancouver")
+
 
 @app.post("/")
 def read_root(inp: Item):
-    # print(inp)
     ress = process_requests(inp.references)
     refe = []
     for res in ress:
-        # print(res)
         check_id = {}
         check_id["id"] = res["id"]
         check_id["value"] = preprocess(res)
         refe.append(check_id)
     return refe
-    
-# Testing....
-references = open("References copy.txt", "r").readlines() #[xml_text] 
-# # print(references)
-# # print(type(references))
-inp = []
-for reference in references:
-    inp.append({"id": id, "reference": reference})
 
-ress = process_requests(inp)
-refe = []
-for res in ress:
-    # print(res)
-    check_id = {}
-    check_id["id"] = res["id"]
-    check_id["value"] = preprocess(res)
-    refe.append(check_id)
-# print(refe)
-res = preprocess(process_requests(inp))
-# print(res)
+# # Testing....
+# references = open("References copy.txt", "r").readlines() #[xml_text]
+
+# inp = []
+# for reference in references:
+#     inp.append({"id": id, "reference": reference})
+
+# ress = process_requests(inp)
+# refe = []
+# for res in ress:
+#     check_id = {}
+#     check_id["id"] = res["id"]
+#     check_id["value"] = preprocess(res)
+#     refe.append(check_id)
+
+# res = preprocess(process_requests(inp))
+
 
 # return preprocess(res)
-    
+
     # process_requests({"references": inp})
     # doi_metadata_api("https://doi.org/10.1016/j.apenergy.2016.01.070")
 

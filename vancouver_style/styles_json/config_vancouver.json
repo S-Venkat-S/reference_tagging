@@ -2,7 +2,7 @@
   {
     "mixed-citation": {
       "value": "",
-      "attributes": [{ "publication-type": { "value": "journal" } }],
+      "attributes": [{ "publication-type": { "value": "type" } }],
       "child": [
         {
           "person-group": {
@@ -23,50 +23,60 @@
                         "value": "author[?].\"given\""
                       }
                     }
-                  ]
+                  ],
+                  "tail": ", "
                 }
               }
-            ]
+            ],
+            "tail": ". "
           }
         },
         {
           "article-title": {
-            "value": "title"
+            "value": "title",
+            "tail": ". "
           }
         },
         {
           "source1": {
-            "value": "container-title"
+            "value": "container-title",
+            "tail": ". "
           }
         },
         {
           "confrence-name": {
-            "value": "container-tit"
+            "value": "container-tit",
+            "tail": ". "
           }
         },
         {
           "publisher-name": {
-            "value": "publisher"
+            "value": "publisher",
+            "tail": ", "
           }
         },
         {
           "publisher-loc": {
-            "value": "publish"
+            "value": "publish",
+            "tail": ", "
           }
         },
         {
           "year": {
-            "value": "year"
+            "value": "year",
+            "tail": ";"
           }
         },
         {
           "volume": {
-            "value": "volume"
+            "value": "volume",
+            "tail": ":"
           }
         },
         {
           "issue": {
-            "value": "issue"
+            "value": "issue",
+            "tail": ":"
           }
         },
         {
@@ -76,17 +86,20 @@
         },
         {
           "lpage": {
-            "value": "lpage"
+            "value": "lpage",
+            "tail": ". "
           }
         },
         {
           "ext-link": {
-            "value": "link"
+            "value": "lin",
+            "tail": ". "
           }
         },
         {
           "comment": {
-            "value": "comment"
+            "value": "comment",
+            "tail": ". "
           }
         },
         {
@@ -97,7 +110,8 @@
               { "break": { "value": "Y" } },
               { "xlink_href": { "value": "URL" } },
               { "xlink_href": { "value": "doi_url" } }
-            ]
+            ],
+            "tail": ". "
           }
         }
       ]
