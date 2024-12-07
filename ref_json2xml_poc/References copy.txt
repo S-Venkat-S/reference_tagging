@@ -1,1 +1,0 @@
-S. Zhao, M. Hu, Z. Cai, Z. Zhang, T. Zhou et al. ""Enhancing Chinese character representation with lattice-aligned attention"", IEEE Transactions on Neural Networks and Learning Systems, 2021, DOI: 10.1109/TNNLS.2021.3114378.

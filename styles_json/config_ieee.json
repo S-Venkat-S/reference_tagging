@@ -55,11 +55,6 @@
           }
         },
         {
-          "year": {
-            "value": "year"
-          }
-        },
-        {
           "volume": {
             "value": "volume"
           }
@@ -80,13 +75,8 @@
           }
         },
         {
-          "ext-link": {
-            "value": "link"
-          }
-        },
-        {
-          "comment": {
-            "value": "comment"
+          "year": {
+            "value": "year"
           }
         },
         {
