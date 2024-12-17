@@ -46,7 +46,7 @@ def add_tag(res, style="vancouver"):
                     if attr_value["value"] == "URL" or attr_value["value"] == "doi_url" or attr_value["value"] == "type":
                         if attr_value["value"] in csl_json:
                             mix[attr_key] = csl_json.get(attr_value["value"])
-                        else:
+                        elif attr_value["value"] == "type":
                             mix[attr_key] = "journal"
                     else:
                         mix[attr_key] = attr_value["value"]
@@ -61,9 +61,5 @@ def add_tag(res, style="vancouver"):
         root_tag = func(k)
         if root_tag:
             soup.append(root_tag)
-
-    # Remove the wrapper tags
-    for wrapper in soup.find_all("wrapper"):
-        wrapper.unwrap()
 
     return str(soup)

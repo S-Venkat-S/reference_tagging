@@ -87,8 +87,16 @@ def ask_google(reference):
             {reference}
             """
             response = model.generate_content(prompt)
+            # matches = re.search(r'(\{.*\})', response.text, re.DOTALL)
+
+            # if matches:
+            #     text = matches.group(1)
+            #     return json.loads(text)
+            # else:
+            #     print("No match found")
             response = re.sub(r'```json', '', response.text,
                               flags=re.IGNORECASE)
+
             return json.loads(response.replace('`', ''))
         except json.JSONDecodeError as decode_err:
             print("Error in decoder.", decode_err)
@@ -219,6 +227,7 @@ def preprocess(res):
     if not ref:
         return ""
 
+    #Initialize the correct page value
     page_value = ref.get("page") or ref.get("first-page") or ref.get("fpage")
     f_page = ref.get("page-first")
     l_page = ref.get("page-last")
@@ -236,6 +245,7 @@ def preprocess(res):
     if l_page:
         ref["lpage"] = l_page
 
+    #Initialize the correct year value
     issued = ref.get("issued", {})
     date_parts = issued.get("date-parts", [])
     if date_parts:
@@ -245,6 +255,12 @@ def preprocess(res):
             ref["year"] = f"{year}, {month_name}."
         else:
             ref["year"] = year
+            
+    #Initialize the correct given name
+    author = ref.get("author", {})
+    if author:
+        for given in author:
+            given["given_initial"] = "".join(initial[0] for initial in given["given"].split())
 
     return ordering.add_tag(res, "vancouver")
 

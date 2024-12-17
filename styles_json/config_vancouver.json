@@ -14,13 +14,13 @@
                   "value": "",
                   "child": [
                     {
-                      "sur-name": {
-                        "value": "author[?].\"family\""
+                      "given-name": {
+                        "value": "author[?].\"given_initial\""
                       }
                     },
                     {
-                      "given-name": {
-                        "value": "author[?].\"given\""
+                      "sur-name": {
+                        "value": "author[?].\"family\""
                       }
                     }
                   ],
@@ -81,7 +81,8 @@
         },
         {
           "fpage": {
-            "value": "fpage"
+            "value": "fpage",
+            "tail": "&#x2013;"
           }
         },
         {
@@ -106,7 +107,7 @@
           "pub-id": {
             "value": "DOI",
             "attributes": [
-              { "ext_type": { "value": "uri" } },
+              { "pub-id-type": { "value": "uri" } },
               { "break": { "value": "Y" } },
               { "xlink_href": { "value": "URL" } },
               { "xlink_href": { "value": "doi_url" } }
