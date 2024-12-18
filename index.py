@@ -226,41 +226,48 @@ def preprocess(res):
 
     if not ref:
         return ""
+    
+    try:
+        #Initialize the correct page value
+        page_value = ref.get("page") or ref.get("first-page") or ref.get("fpage")
+        f_page = ref.get("page-first")
+        l_page = ref.get("page-last")
 
-    #Initialize the correct page value
-    page_value = ref.get("page") or ref.get("first-page") or ref.get("fpage")
-    f_page = ref.get("page-first")
-    l_page = ref.get("page-last")
+        # Separate the page number and add first, last tag
+        if page_value:
+            split_page = [part for part in page_value.replace(
+                "–", "-").replace("--", "-").split("-") if part.isdigit()]
+            if len(split_page) > 1:
+                ref["fpage"], ref["lpage"] = split_page
+            else:
+                ref["fpage"] = page_value
+        if f_page:
+            ref["fpage"] = f_page
+        if l_page:
+            ref["lpage"] = l_page
 
-    # Separate the page number and add first, last tag
-    if page_value:
-        split_page = [part for part in page_value.replace(
-            "–", "-").replace("--", "-").split("-") if part.isdigit()]
-        if len(split_page) > 1:
-            ref["fpage"], ref["lpage"] = split_page
-        else:
-            ref["fpage"] = page_value
-    if f_page:
-        ref["fpage"] = f_page
-    if l_page:
-        ref["lpage"] = l_page
-
-    #Initialize the correct year value
-    issued = ref.get("issued", {})
-    date_parts = issued.get("date-parts", [])
-    if date_parts:
-        year = str(date_parts[0][0])
-        if len(date_parts[0]) > 1:
-            month_name = calendar.month_name[date_parts[0][1]][:3]
-            ref["year"] = f"{year}, {month_name}."
-        else:
-            ref["year"] = year
-            
-    #Initialize the correct given name
-    author = ref.get("author", {})
-    if author:
-        for given in author:
-            given["given_initial"] = "".join(initial[0] for initial in given["given"].split())
+        #Initialize the correct year value
+        issued = ref.get("issued", {})
+        date_parts = issued.get("date-parts", [])
+        if date_parts:
+            year = str(date_parts[0][0])
+            if len(date_parts[0]) > 1:
+                month_index = date_parts[0][1]
+                if 1 <= month_index <= 12:
+                    month_name = calendar.month_name[month_index][:3]
+                    ref["year"] = f"{year}, {month_name}."
+                else:
+                    ref["year"] = year
+            else:
+                ref["year"] = year
+                
+        #Initialize the correct given name
+        author = ref.get("author", {})
+        if author:
+            for given in author:
+                given["given_initial"] = "".join(initial[0] for initial in given["given"].split())
+    except Exception as e:
+        print(f"Error in preprocess (index.py)-file {e}")
 
     return ordering.add_tag(res, "vancouver")
 
