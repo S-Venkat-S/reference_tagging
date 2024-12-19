@@ -1,5 +1,6 @@
 # from googleapi import google
 # num_page = 2
+import uvicorn
 import ordering
 import calendar
 from queue import Queue
@@ -128,11 +129,11 @@ def ask_crossref(reference):
 def ask_duckduckgo(reference):
     from duckduckgo_search import DDGS
     with DDGS() as ddgs:
+        print(ddgs.text(f'{reference} "doi"', region='in-en', safesearch='off', max_results=3, backend='html'))
         for r in ddgs.text(f'{reference} "doi"', region='in-en', safesearch='off', max_results=3, backend='html'):
-            print(r["body"])
             doi = find_doi_in_reference(r["body"])
-            print(doi)
-
+            return doi
+    return False
 
 def get_doi_metadata(reference):
     doi_find_order = [find_doi_in_reference, ask_crossref, ask_duckduckgo]
@@ -282,3 +283,7 @@ def read_root(inp: Item):
         check_id["value"] = preprocess(res)
         refe.append(check_id)
     return refe
+
+# if __name__ == "__main__":
+#     uvicorn.run("index:app", host="0.0.0.0", port=8000, reload=False, log_level="debug", loop="asyncio")
+# ask_duckduckgo("Yang T, Kong Z, Ma W. PD-1/PD-L1 immune checkpoint inhibitors in glioblastoma: clinical studies, challenges and potential. Hum Vaccin Immunother. 2021;17(2):546-53")
