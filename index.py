@@ -67,12 +67,14 @@ def find_doi_in_reference(reference):
     words = reference.split(" ")
     ref = None
     for word in words:
-        if "doi" in word.lower() and len(word) > 5:
+        if re.search("10.\d{4}", word):
+            ref = word
+        elif "doi" in word.lower() and len(word) > 5:
             ref = word
         elif re.match("\d{2}\.\d{3,}\/", word):
             ref = word
-    if ref != None:
-        return clean_up_doi(word)
+        if ref != None:
+            return clean_up_doi(word)
     return False
 
 
@@ -126,19 +128,18 @@ def ask_crossref(reference):
 def ask_duckduckgo(reference):
     from duckduckgo_search import DDGS
     with DDGS() as ddgs:
-        for r in ddgs.text(f"{reference}", region='in-en', safesearch='off', max_results=3, backend='html'):
-            print(r)
+        for r in ddgs.text(f'{reference} "doi"', region='in-en', safesearch='off', max_results=3, backend='html'):
+            print(r["body"])
+            doi = find_doi_in_reference(r["body"])
+            print(doi)
 
 
 def get_doi_metadata(reference):
-    doi_in_reference = find_doi_in_reference(reference)
-    if doi_in_reference:
-        debug("DOI Found in Reference")
-        return doi_metadata_api(doi_in_reference)
-    cross_ref = ask_crossref(reference)
-    if cross_ref:
-        debug("DOI Found in Crossref")
-        return doi_metadata_api(cross_ref)
+    doi_find_order = [find_doi_in_reference, ask_crossref, ask_duckduckgo]
+    for doi_finder in doi_find_order:
+        doi = doi_finder(reference)
+        if doi:
+            return doi_metadata_api(doi)
     return False
 
 
