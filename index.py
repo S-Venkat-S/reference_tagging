@@ -77,9 +77,8 @@ def find_doi_in_reference(reference):
 
 
 def ask_google(reference):
-    for i in range(3):
+    for i in range(1):
         try:
-            time.sleep(1)
             generation_config = genai.types.GenerationConfig(temperature=0)
             model = genai.GenerativeModel(
                 'gemini-pro', generation_config=generation_config)
@@ -119,7 +118,7 @@ def ask_crossref(reference):
     response = requests.get(url)
     if response.status_code == 200:
         metadata = json.loads(response.text)
-        if metadata["message"]["items"][0]["score"] > 100:
+        if metadata["message"]["items"][0]["score"] > 80:
             return "http://doi.org/" + metadata["message"]["items"][0]["DOI"]
     return False
 
